@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pok&eacute;dex</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles/css/styles.css" type="text/css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"> -->
+</head>
+<body>
+  <header>
+    <h1>Pok&eacute;dex</h1>
+  </header>
+  <main>
+    <form method="get">
+      <fieldset>
+        <div id="type-menu">
+          <button type="button" value="normal" class="type normal">Normal</button>
+          <button type="button" value="fire" class="type fire">Fire</button>
+          <button type="button" value="water" class="type water">Water</button>
+          <button type="button" value="grass" class="type grass">Grass</button>
+          <button type="button" value="electric" class="type electric">Electric</button>
+          <button type="button" value="ice" class="type ice">Ice</button>
+          <button type="button" value="fighting" class="type fighting">Fighting</button>
+          <button type="button" value="poison" class="type poison">Poison</button>
+          <button type="button" value="ground" class="type ground">Ground</button>
+          <button type="button" value="rock" class="type rock">Rock</button>
+          <button type="button" value="flying" class="type flying">Flying</button>
+          <button type="button" value="bug" class="type bug">Bug</button>
+          <button type="button" value="psychic" class="type psychic">Psychic</button>
+          <button type="button" value="ghost" class="type ghost">Ghost</button>
+          <button type="button" value="dragon" class="type dragon">Dragon</button>
+          <!-- <button type="button" value="dark" class="type dark">Dark</button>
+          <button type="button" value="steel" class="type steel">Steel</button>
+          <button type="button" value="fairy" class="type fairy">Fairy</button> -->
+        </div>
+        <div id="form-btns">
+          <button type="button" value="submit" class="search-submit">Search</button>
+          <button type="reset" value="submit" class="search-reset">Reset</button>
+        </div>
+      </fieldset>
+    </form>
+    <div class="search-results">
+      <div class="info-card">
+        <span class="info-img sprite-icon sprite-icon-47"></span>
+        <div class="info-name"><p>#047 Parasect</p></div>
+        <div class="type-container">
+          <div class="bug-select info-type"><p>Bug</p></div>
+          <div class="grass-select info-type"><p>Grass</p></div>
+        </div>
+      </div>
+    </div>
+    <div id="info-overlay">
+      <button type="button" class="close-overlay" value="X">X</button>
+      <!-- <div class="info-text">
+        <h1 class="name-overlay">#047 Parasect</h1>
+        <div class="ht-wt">
+          <h3 class="ht">Height: 1.0 m</h3>
+          <h3 class="wt">Weight: 29.5 kg</h3>
+        </div>
+        <div class="stat-container">
+          <div class="stat hp">HP<br>100</div>
+          <div class="stat atk">Attack<br>100</div>
+          <div class="stat def">Defense<br>100</div>
+          <div class="stat spcAtk">Spc. Attack<br>100</div>
+          <div class="stat spcDef">Spc. Defense<br>100</div>
+          <div class="stat speed">Speed<br>100</div>
+        </div>
+      </div> -->
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="js/pokesearch.js"></script>
+</body>
+</html>
