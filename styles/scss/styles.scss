@@ -1,6 +1,8 @@
+@import '_utilities';
+
 * {
   box-sizing: border-box;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: $defaultFont;
 }
 
 h1{
@@ -226,15 +228,15 @@ fieldset {
 }
 
 .info-name {
-  display: block;
+  display: inline;
   color: #4f4f5f;
 }
 
 .info-card {
   position: relative;
   display: inline-block;
-  width: 10rem;
-  height: 13rem;
+  width: 15rem;
+  height: 5rem;
   background-color: #efefef;
   text-align: center;
   cursor: pointer;
@@ -245,24 +247,24 @@ fieldset {
 }
 
 .type-container {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
+  display: inline-block;
+  width: 3.5rem;
 }
 
 .info-type {
-  display: inline-block;
+  display: block;
   width: 3.5rem;
   height: 1.5rem;
   font-size: 0.75rem;
   text-transform: capitalize;
   line-height: 1.5rem;
   border-radius: 2px;
-  margin: 0.5rem;
+  margin: 0.5rem auto;
   p {
     margin: 0;
   }
 }
+
 span.sprite-icon { display: inline-block; height: 30px; width: 40px; background: url(../../images/pokemon-sprite-sheet.png) no-repeat; vertical-align: middle; }
 span.sprite-icon-1 { background-position: 0px 0px; }
 span.sprite-icon-2 { background-position: -40px 0px; }
@@ -440,7 +442,7 @@ span.sprite-icon-151 { background-position: 0px -180px; }
 .name-overlay {
   width: 100%;
   text-align: center;
-  font-family: 'Slabo 27px', Helvetica, Arial, sans-serif;
+  font-family: $defaultFont;
   font-size: 3rem;
   color: #fff;
   padding-top: 10vh;
@@ -457,7 +459,7 @@ span.sprite-icon-151 { background-position: 0px -180px; }
 .ht,
 .wt {
   display: inline-block;
-  font-family: 'Slabo 27px', Helvetica, Arial, sans-serif;;
+  font-family: $defaultFont;;
   color: #fff;
   margin: 0 5%;
 }
@@ -474,7 +476,7 @@ span.sprite-icon-151 { background-position: 0px -180px; }
   height: 2.8rem;
   line-height: 1.25rem;
   max-width: 100%;
-  font-family: 'Slabo 27px', Helvetica, Arial, sans-serif;;
+  font-family: $defaultFont;
   color: #333;
   font-size: 1.25rem;
   margin: 1rem;

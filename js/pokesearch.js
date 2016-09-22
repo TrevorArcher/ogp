@@ -53,21 +53,21 @@ $('.search-submit').on('click', function(){
   for(var i = 0 ; i < pObj.pokemon.length ; i++) {
     var nextP = pObj.pokemon[i],
     pName = nextP.name,
-    $cardDiv = $('<button class="info-card" value=' + nextP.id + '>'),
-    $nameDiv = $('<div class="info-name">'),
+    $cardButton = $('<button class="info-card" value=' + nextP.id + '>'),
+    $nameP = $('<p class="info-name">'),
     $imgSpan = $('<span class="info-img sprite-icon sprite-icon-' + nextP.id + '">'),
-    $typeDiv = $('<div class="type-container">');
+    $typeSpan = $('<span class="type-container">');
     if ((pTypeArr.includes(nextP.types[0]) || pTypeArr.includes(nextP.types[1]))) {
-      $nameDiv.append($('<p>').text(pName));
-      $cardDiv.append($imgSpan);
-      $cardDiv.append($nameDiv);
+      $nameP.text(pName);
+      $cardButton.append($imgSpan);
+      $cardButton.append($nameP);
       for (var j = 0 ; j < nextP.types.length ; j++) {
-        var $type = $('<div class="info-type ' + nextP.types[j] + '-select">');
+        var $type = $('<span class="info-type ' + nextP.types[j] + '-select">');
         $type.append($('<p>').text(nextP.types[j]));
-        $typeDiv.append($type);
+        $typeSpan.append($type);
       }
-      $cardDiv.append(($typeDiv));
-      $results.append($cardDiv);
+      $cardButton.append($typeSpan);
+      $results.append($cardButton);
     }
     $results.fadeIn();
   }
