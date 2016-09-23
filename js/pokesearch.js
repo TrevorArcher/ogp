@@ -1,21 +1,33 @@
 var $results = $('.search-results'),
     $infoOver = $('#info-overlay'),
     $buttons = $('button'),
+    // $results = document.getElementsByClassName('search-results'),
+    // $infoOver = document.getElementById('info-overlay'),
+    // $buttons = document.getElementsByTagName('button'),
     pObj,
     pNameArr = [],
     pTypeArr = [];
 
-var genOne = function() {
-  $.ajax({
-    type: 'GET',
-    url: 'json/ogpokemon.json',
-    dataType: 'json',
-    success: function(result){
-      pObj = result;
-      console.log(pObj);
-    }
-  });
-}();
+// var genOne = function() {
+//   $.ajax({
+//     type: 'GET',
+//     url: 'json/ogpokemon.json',
+//     dataType: 'json',
+//     success: function(result){
+//       pObj = result;
+//       console.log(pObj);
+//     }
+//   });
+// }();
+
+var r = new XMLHttpRequest();
+r.open("GET", "json/ogpokemon.json", true);
+r.onreadystatechange = function () {
+	if (r.readyState != 4 || r.status != 200) return;
+	console.log(r.responseText);
+  pObj = (r.responseText);
+};
+r.send();
 
 $('.type').on('click', function(){
   var thisType = this.value;
