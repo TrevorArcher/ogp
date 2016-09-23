@@ -29,6 +29,11 @@ r.onreadystatechange = function () {
 };
 r.send();
 
+
+//fix this type menu sans jQuery
+var parentForm = document.getElementsByTagName('form');
+parentForm.innerHTML = '<fieldset><div id="type-menu"><button type="button" value="normal" class="type normal">Normal</button><button type="button" value="fire" class="type fire">Fire</button><button type="button" value="water" class="type water">Water</button><button type="button" value="grass" class="type grass">Grass</button><button type="button" value="electric" class="type electric">Electric</button><button type="button" value="ice" class="type ice">Ice</button><button type="button" value="fighting" class="type fighting">Fighting</button><button type="button" value="poison" class="type poison">Poison</button><button type="button" value="ground" class="type ground">Ground</button><button type="button" value="rock" class="type rock">Rock</button><button type="button" value="flying" class="type flying">Flying</button><button type="button" value="bug" class="type bug">Bug</button><button type="button" value="psychic" class="type psychic">Psychic</button><button type="button" value="ghost" class="type ghost">Ghost</button><button type="button" value="dragon" class="type dragon">Dragon</button><button type="button" value="dark" class="type dark">Dark</button><button type="button" value="steel" class="type steel">Steel</button><button type="button" value="fairy" class="type fairy">Fairy</button></div><div id="form-btns"><button type="button" value="submit" class="search-submit">Search</button><button type="reset" value="submit" class="search-reset">Reset</button></div></fieldset>';
+
 $('.type').on('click', function(){
   var thisType = this.value;
   if (pTypeArr.includes(thisType) && ($(this).hasClass(thisType + '-select'))){
