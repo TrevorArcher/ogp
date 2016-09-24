@@ -27,10 +27,10 @@ var soBasic = function() {
             type2 = result.types[0].type.name;
 
           }
-          pokeStr = '<button class="info-card" value="' + result.id + '"><span class="info-img sprite-icon sprite-icon-' + result.id + '"></span><p class="info-name">' + result.name + '</p><span class="type-container"><span class="' + type1 + '-select info-type"><p>' + type1 + '</p></span><span class="' + type2 + '-select info-type"><p>' + type2 + '</p></span></span></button>';
+          pokeStr = '<button class="info-card" value="' + result.id + '"><p class="info-name">' + result.name + '</p><span class="type-container"><span class="' + type1 + '-select info-type"><p>' + type1 + '</p></span><span class="' + type2 + '-select info-type"><p>' + type2 + '</p></span></span></button>';
           console.log(pokeStr);
         } else {
-          pokeStr = '<button class="info-card" value="' + result.id + '"><span class="info-img sprite-icon sprite-icon-' + result.id + '"></span><p class="info-name">' + result.name + '</p><span class="type-container"><span class="' + result.types[0].type.name + '-select info-type"><p>' + result.types[0].type.name + '</p></span></span></button>';
+          pokeStr = '<button class="info-card" value="' + result.id + '"><p class="info-name">' + result.name + '</p><span class="type-container"><span class="' + result.types[0].type.name + '-select info-type"><p>' + result.types[0].type.name + '</p></span></span></button>';
           console.log(pokeStr);
         }
       }
