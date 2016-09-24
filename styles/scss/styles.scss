@@ -224,22 +224,24 @@ fieldset {
 }
 
 .info-img {
-  margin: 0 auto;
+  margin-right: 0.5rem;
+  margin-top: -0.25rem;
 }
 
 .info-name {
   display: inline;
+  font-size: 1.25rem;
   color: #4f4f5f;
 }
 
 .info-card {
-  position: relative;
   display: inline-block;
-  width: 15rem;
+  width: 12rem;
   height: 5rem;
   background-color: #efefef;
   text-align: center;
   cursor: pointer;
+  padding: 0.25rem 0;
   margin: 1rem;
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -247,25 +249,26 @@ fieldset {
 }
 
 .type-container {
-  display: inline-block;
-  width: 3.5rem;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 .info-type {
-  display: block;
+  display: inline-block;
   width: 3.5rem;
   height: 1.5rem;
   font-size: 0.75rem;
   text-transform: capitalize;
   line-height: 1.5rem;
   border-radius: 2px;
-  margin: 0.5rem auto;
+  margin: 0.5rem;
   p {
     margin: 0;
   }
 }
 
-span.sprite-icon { display: inline-block; height: 30px; width: 40px; background: url(../../images/pokemon-sprite-sheet.png) no-repeat; vertical-align: middle; }
+span.sprite-icon { display: inline-block; height: 30px; width: 40px; background: url(../../images/pokemon-sprite-sheet.png) no-repeat; vertical-align: top;}
 span.sprite-icon-1 { background-position: 0px 0px; }
 span.sprite-icon-2 { background-position: -40px 0px; }
 span.sprite-icon-3 { background-position: -80px 0px; }
