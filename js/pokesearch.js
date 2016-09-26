@@ -1,6 +1,7 @@
 var $results = $('.search-results'),
     $infoOver = $('#info-overlay'),
     $buttons = $('button'),
+    mainContent = document.getElementsByTagName('main')[0],
     // $results = document.getElementsByClassName('search-results'),
     // $infoOver = document.getElementById('info-overlay'),
     // $buttons = document.getElementsByTagName('button'),
@@ -20,20 +21,58 @@ var $results = $('.search-results'),
 //   });
 // }();
 
-var r = new XMLHttpRequest();
-r.open("GET", "json/ogpokemon.json", true);
-r.onreadystatechange = function () {
-	if (r.readyState != 4 || r.status != 200) return;
-	console.log(r.responseText);
-  pObj = (r.responseText);
-};
-r.send();
+// var r = new XMLHttpRequest();
+// r.open("GET", "json/ogpokemon.json", true);
+// r.onreadystatechange = function () {
+// 	if (r.readyState != 4 || r.status != 200) return;
+// 	console.log(r.responseText);
+//   pObj = (r.responseText);
+// };
+// r.send();
+
+//type menu generation
+var typeSearchArr = ['Normal','Fire','Water','Grass','Electric','Ice','Fighting','Poison','Ground','Rock','Flying','Bug','Psychic','Ghost','Dragon','Dark','Steel','Fairy'];
+
+var buttonBuild = function(){
+  var typeForm = document.createElement('form'),
+      typeField = document.createElement('fieldset'),
+      typeDiv = document.createElement('div'),
+      searchDiv = document.createElement('div');
+
+  typeDiv.setAttribute('id', 'type-menu');
+  searchDiv.setAttribute('id', 'form-buttons');
+  typeForm.setAttribute('method', 'get');
+  for (var i = 0 ; i < typeSearchArr.length ; i++) {
+    var currentType = typeSearchArr[i],
+        typeButton = document.createElement('button');
+    typeButton.setAttribute('type', 'button');
+    typeButton.setAttribute('value', currentType.toLowerCase());
+    typeButton.setAttribute('class', 'type ' + currentType.toLowerCase());
+    typeButton.textContent = currentType;
+    typeDiv.appendChild(typeButton);
+  }
+  var searchButton = document.createElement('button');
+  searchButton.setAttribute('type', 'button');
+  searchButton.setAttribute('value', 'submit');
+  searchButton.setAttribute('class', 'search-submit');
+  searchButton.textContent = 'Search';
+  searchDiv.appendChild(searchButton);
+  searchButton = document.createElement('button');
+  searchButton.setAttribute('type', 'button');
+  searchButton.setAttribute('value', 'submit');
+  searchButton.setAttribute('class', 'search-reset');
+  searchButton.textContent = 'Reset';
+  searchDiv.appendChild(searchButton);
+
+  typeField.appendChild(typeDiv);
+  typeField.appendChild(searchDiv);
+  typeForm.appendChild(typeField);
+  mainContent.appendChild(typeForm);
+}();
 
 
-//fix this type menu sans jQuery
-var parentForm = document.getElementsByTagName('form');
-parentForm.innerHTML = '<fieldset><div id="type-menu"><button type="button" value="normal" class="type normal">Normal</button><button type="button" value="fire" class="type fire">Fire</button><button type="button" value="water" class="type water">Water</button><button type="button" value="grass" class="type grass">Grass</button><button type="button" value="electric" class="type electric">Electric</button><button type="button" value="ice" class="type ice">Ice</button><button type="button" value="fighting" class="type fighting">Fighting</button><button type="button" value="poison" class="type poison">Poison</button><button type="button" value="ground" class="type ground">Ground</button><button type="button" value="rock" class="type rock">Rock</button><button type="button" value="flying" class="type flying">Flying</button><button type="button" value="bug" class="type bug">Bug</button><button type="button" value="psychic" class="type psychic">Psychic</button><button type="button" value="ghost" class="type ghost">Ghost</button><button type="button" value="dragon" class="type dragon">Dragon</button><button type="button" value="dark" class="type dark">Dark</button><button type="button" value="steel" class="type steel">Steel</button><button type="button" value="fairy" class="type fairy">Fairy</button></div><div id="form-btns"><button type="button" value="submit" class="search-submit">Search</button><button type="reset" value="submit" class="search-reset">Reset</button></div></fieldset>';
 
+//Menu search
 $('.type').on('click', function(){
   var thisType = this.value;
   if (pTypeArr.includes(thisType) && ($(this).hasClass(thisType + '-select'))){
