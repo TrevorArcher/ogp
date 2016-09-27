@@ -21,14 +21,14 @@ var $results = $('.search-results'),
 //   });
 // }();
 
-// var r = new XMLHttpRequest();
-// r.open("GET", "json/ogpokemon.json", true);
-// r.onreadystatechange = function () {
-// 	if (r.readyState != 4 || r.status != 200) return;
-// 	console.log(r.responseText);
-//   pObj = (r.responseText);
-// };
-// r.send();
+var r = new XMLHttpRequest();
+r.open("GET", "json/ogpokemon.json", true);
+r.onreadystatechange = function () {
+	if (r.readyState != 4 || r.status != 200) return;
+	console.log(r.responseText);
+  pObj = (r.responseText);
+};
+r.send();
 
 //type menu generation
 var typeSearchArr = ['Normal','Fire','Water','Grass','Electric','Ice','Fighting','Poison','Ground','Rock','Flying','Bug','Psychic','Ghost','Dragon','Dark','Steel','Fairy'];
@@ -67,7 +67,7 @@ var buttonBuild = function(){
   typeField.appendChild(typeDiv);
   typeField.appendChild(searchDiv);
   typeForm.appendChild(typeField);
-  mainContent.appendChild(typeForm);
+  mainContent.insertBefore(typeForm, mainContent.childNodes[0]);
 }();
 
 

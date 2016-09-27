@@ -33,9 +33,6 @@ fieldset {
   box-shadow: none;
   transition-duration: 0.2s; }
 
-#form-btns {
-  text-align: center; }
-
 .search-submit,
 .search-reset {
   display: inline-block;
@@ -51,6 +48,9 @@ fieldset {
 .search-submit:active,
 .search-reset:active {
   background-color: #ccc; }
+
+#form-btns {
+  text-align: center; }
 
 .normal,
 .fire,
