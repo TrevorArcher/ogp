@@ -2,6 +2,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: $defaultFont;
 }
 
@@ -9,82 +11,6 @@ h1{
   text-align: center;
 }
 
-fieldset {
-  border: none;
-}
-
-
-
-/*---------- Type selection menu ----------*/
-
-#type-menu {
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.type {
-  display: inline-block;
-  width: 6rem;
-  height: 2.8rem;
-  line-height: 2.8rem;
-  max-width: 100%;
-  font-size: 1rem;
-  cursor: pointer;
-  box-shadow: 10px 10px 20px #777;
-  margin: 0.7rem;
-  border-radius: 3px;
-  transition-duration: 0.2s;
-}
-
-.type-select {
-  transform: translateY(5px);
-  box-shadow: none;
-  transition-duration: 0.2s;
-
-}
-
-.search-submit,
-.search-reset {
-  display: inline-block;
-  width: 4rem;
-  height: 1.8rem;
-  line-height: 1.8rem;
-  font-size: 1rem;
-  cursor: pointer;
-  margin: 0.7rem;
-  border: none;
-  border-radius: 3px;
-}
-
-.search-submit:active,
-.search-reset:active {
-  background-color: #ccc;
-}
-
-#form-btns {
-  text-align: center;
-}
-
-.normal,
-.fire,
-.water,
-.grass,
-.electric,
-.ice,
-.fighting,
-.poison,
-.ground,
-.rock,
-.flying,
-.bug,
-.psychic,
-.ghost,
-.dragon,
-.dark,
-.steel,
-.fairy,
 .normal-select,
 .fire-select,
 .water-select,
@@ -107,120 +33,65 @@ fieldset {
   border: none;
 }
 
-.normal {
-  background-color: #6d6d4e;
-}
 .normal-select {
   background-color: #a8a878;
-}
-.fire {
-  background-color: #9c531f;
 }
 .fire-select {
   background-color: #f08030;
 }
-.water {
-  background-color: #445e9c;
-}
 .water-select {
   background-color: #6890f0;
-}
-.grass {
-  background-color: #4e8234;
 }
 .grass-select {
   background-color: #78c850;
 }
-.electric {
-  background-color: #a1871f;
-}
 .electric-select {
   background-color: #f8d030;
-}
-.ice {
-  background-color: #638D8D;
 }
 .ice-select {
     background-color: #98d8d8;
 }
-.fighting {
-  background-color: #7d1f1a;
-}
 .fighting-select {
   background-color: #c03028;
-}
-.poison {
-  background-color: #682a68;
 }
 .poison-select {
   background-color: #a040a0;
 }
-.ground {
-  background-color: #927d44;
-}
 .ground-select {
   background-color: #e0c068;
-}
-.rock {
-  background-color: #786824;
 }
 .rock-select {
   background-color: #b8a038;
 }
-.flying {
-  background-color: #6d5e9c;
-}
 .flying-select {
   background-color: #a890f0;
-}
-.bug {
-  background-color: #6d7815;
 }
 .bug-select {
   background-color: #a8b820;
 }
-.psychic {
-  background-color: #a13959;
-}
 .psychic-select {
   background-color: #f85888;
-}
-.ghost {
-  background-color: #493963;
 }
 .ghost-select {
   background-color: #705898;
 }
-.dragon {
-  background-color: #4924a1;
-}
 .dragon-select {
   background-color: #7038f8;
-}
-.dark {
-  background-color: #49392f;
 }
 .dark-select {
   background-color: #705848;
 }
-.steel {
-  background-color: #787887;
-}
 .steel-select {
   background-color: #b8b8d0;
 }
-.fairy {
-  background-color: #9b6470;
-}
+
 .fairy-select {
   background-color: #ee99ac;
 }
 
 /*---------- Search results ----------*/
 .search-results {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
+  width: 100%;
 }
 
 .info-img {
@@ -235,22 +106,24 @@ fieldset {
 }
 
 .info-card {
-  display: inline-block;
-  width: 12rem;
-  height: 5rem;
+  width: 100%;
+  height: 10rem;
   background-color: #efefef;
-  text-align: center;
-  cursor: pointer;
   padding: 0 auto;
-  margin: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 3px;
+  margin: 0 auto;
   transition-duration: 0.4s;
+}
+
+a:nth-of-type(even) div {
+  background-color: #deeeef;
 }
 
 .type-container {
   display: block;
   width: 100%;
+}
+
+.type-container p {
   text-align: center;
 }
 
@@ -268,7 +141,7 @@ fieldset {
   }
 }
 
-span.sprite-icon { display: inline-block; height: 30px; width: 40px; background: url(../../images/pokemon-sprite-sheet.png) no-repeat; vertical-align: top;}
+// span.sprite-icon { display: inline-block; height: 30px; width: 40px; background: url(../../images/pokemon-sprite-sheet.png) no-repeat; vertical-align: top;}
 span.sprite-icon-1 { background-position: 0px 0px; }
 span.sprite-icon-2 { background-position: -40px 0px; }
 span.sprite-icon-3 { background-position: -80px 0px; }
@@ -420,110 +293,3 @@ span.sprite-icon-148 { background-position: -880px -150px; }
 span.sprite-icon-149 { background-position: -920px -150px; }
 span.sprite-icon-150 { background-position: -960px -150px; }
 span.sprite-icon-151 { background-position: 0px -180px; }
-
-/*--------- More information overlay styles ---------*/
-
-#info-overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 9999px; /* not the most elegant, but works for now*/
-  width: 100%;
-  background-color: #000;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.info-text {
-  display: block;
-  width: 100%;
-  margin-left: auto;
-  margin-right: 0;
-
-}
-.name-overlay {
-  width: 100%;
-  text-align: center;
-  font-family: $defaultFont;
-  font-size: 3rem;
-  color: #fff;
-  padding-top: 10vh;
-  margin: 0 auto;
-}
-
-.ht-wt {
-  text-align: center;
-  width: 100%;
-  font-size: 1.5rem;
-  margin: 2rem auto;
-}
-
-.ht,
-.wt {
-  display: inline-block;
-  font-family: $defaultFont;;
-  color: #fff;
-  margin: 0 5%;
-}
-
-.stat-container {
-  max-width: 30rem;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.stat {
-  display: inline-block;
-  width: 7rem;
-  height: 2.8rem;
-  line-height: 1.25rem;
-  max-width: 100%;
-  font-family: $defaultFont;
-  color: #333;
-  font-size: 1.25rem;
-  margin: 1rem;
-  border-radius: 3px;
-}
-
-.hp {
-background-color: #FF5959;
-}
-.atk {
-background-color: #F5AC78;
-}
-.def {
-background-color: #FAE078;
-}
-.spcAtk {
-background-color: #9DB7F5;
-}
-.spcDef {
-background-color: #A7DB8D;
-}
-.speed {
-  background-color: #FA92B2;
-}
-
-.close-overlay {
-  position: fixed;
-  top: 3vh;
-  right: 3vh;
-  height: 1.5rem;
-  width: 1.5rem;
-  background-color: transparent;
-  line-height: 0.75rem;
-  text-align: center;
-  color: #fff;
-  font-weight: bold;
-  border: 1px solid #fff;
-  border-radius: 2px;
-}
-
-.more-info {
-  position: fixed;
-  top: 10vh;
-  left: 10vh;
-  z-index: 1;
-  transition-duration: 0.4s;
-}

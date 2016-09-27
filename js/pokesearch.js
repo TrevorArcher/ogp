@@ -40,7 +40,7 @@ var buttonBuild = function(){
       searchDiv = document.createElement('div');
 
   typeDiv.setAttribute('id', 'type-menu');
-  searchDiv.setAttribute('id', 'form-buttons');
+  searchDiv.setAttribute('id', 'form-btns');
   typeForm.setAttribute('method', 'get');
   for (var i = 0 ; i < typeSearchArr.length ; i++) {
     var currentType = typeSearchArr[i],
@@ -73,7 +73,8 @@ var buttonBuild = function(){
 
 
 //Menu search
-$('.type').on('click', function(){
+var typeSelect = document.getElementsByClassName('type');
+typeSelect.onClick = function(){
   var thisType = this.value;
   if (pTypeArr.includes(thisType) && ($(this).hasClass(thisType + '-select'))){
       pTypeArr.splice(pTypeArr.indexOf(thisType),1);
@@ -88,7 +89,7 @@ $('.type').on('click', function(){
   $(this).toggleClass(thisType + '-select');
   $(this).toggleClass('type-select');
   console.log(thisType);
-});
+};
 
 $('.search-reset').on('click', function(){
   pTypeArr = [];
@@ -130,7 +131,8 @@ $('.search-submit').on('click', function(){
 });
 
 //figure out proper keypress
-$('.search-results').on('click', '.info-card', function() {
+$('.search-results').on('click', '.info-card', function(e) {
+  e.preventDefault();
   var $infoText = $('<div class="info-text">'),
       $htWt = $('<div class="ht-wt">'),
       $ht = $('<h3 class="ht"></h3>'),
