@@ -7,13 +7,8 @@ var mainContent = document.getElementsByTagName('main')[0],
     pObj;
 
 //good to go!
-var r = new XMLHttpRequest();
-r.open("GET", "json/ogpokemon.json", true);
-r.onreadystatechange = function () {
-	if (r.readyState != 4 || r.status != 200) return;
-  pObj = JSON.parse(r.responseText);
-};
-r.send();
+
+
 
 //type menu generation (good to go!)
 var typeSearchArr = ['Normal','Fire','Water','Grass','Electric','Ice','Fighting','Poison','Ground','Rock','Flying','Bug','Psychic','Ghost','Dragon','Dark','Steel','Fairy'];
@@ -92,10 +87,20 @@ document.getElementsByClassName('search-reset')[0].onclick = function(){
   }
 };
 
-//need to figure out onreadystatechange for XML request
-document.getElementsByClassName('search-submit')[0].onclick = function(){
+//Build results cards, add <a> tags to buttons
 
-  $results.innerHTML = '';
+var requestFun = function() {
+  var r = new XMLHttpRequest();
+  r.onreadystatechange = function () {
+  	if (r.readyState != 4 || r.status != 200) return;
+    buildResults(this);
+  };
+  r.open("GET", "json/ogpokemon.json", true);
+  r.send();
+};
+
+var buildResults = function(xml) {
+  pObj = JSON.parse(xml.responseText);
 
   for(var i = 0 ; i < pObj.pokemon.length ; i++) {
     var nextP = pObj.pokemon[i],
@@ -129,26 +134,26 @@ document.getElementsByClassName('search-submit')[0].onclick = function(){
   }
 };
 
+document.getElementsByClassName('search-submit')[0].onclick = function(){
+  $results.innerHTML = '';
+  requestFun();
+};
+
 //figure out proper keypress
-// $('.search-results').on('click', '.info-card', function(e) {
-//   e.preventDefault();
+var infoCards = document.getElementsByClassName('info-card');
+
+for (var i = 0 ; i < infoCards.length ; i++) {
+  infoCards[i].onclick = function(e) {
+  e.preventDefault();
+  console.log('not going anywhere');
 //   var $infoText = $('<div class="info-text">'),
 //       $htWt = $('<div class="ht-wt">'),
 //       $ht = $('<h3 class="ht"></h3>'),
 //       $wt = $('<h3 class="wt"></h3>'),
-//       $statContain = $('<div class="stat-container">'),
 //       pId = '',
 //       pName = ($(this).find($('.info-name')).text()),
 //       pHt = '',
 //       pWt = '',
-//       pStats = {
-//         'hp': 0,
-//         'atk': 0,
-//         'def': 0,
-//         'spcAtk': 0,
-//         'spcDef': 0,
-//         'speed': 0
-//       };
 //
 //   var thisId = this.getAttribute('value');
 //
@@ -165,12 +170,6 @@ document.getElementsByClassName('search-submit')[0].onclick = function(){
 //         pId = result.id;
 //         pHt = (result.height) / 10;
 //         pWt = (result.weight) / 10;
-//         pStats.speed = result.stats[0].base_stat;
-//         pStats.spcDef = result.stats[1].base_stat;
-//         pStats.spcAtk = result.stats[2].base_stat;
-//         pStats.def = result.stats[3].base_stat;
-//         pStats.atk = result.stats[4].base_stat;
-//         pStats.hp = result.stats[5].base_stat;
 //         $infoOver.append($infoText);
 //         if (pId.toString().length == 1) {
 //           $infoText.append($('<h1 class="name-overlay">').text('#00' + pId + ' ' + pName));
@@ -190,7 +189,8 @@ document.getElementsByClassName('search-submit')[0].onclick = function(){
 //     });
 //   }
 //   $('.close-overlay').focus();
-// });
+  };
+}
 //
 // $('.close-overlay').on('click', function() {
 //   $('.info-card').removeClass('more-info');
