@@ -172,12 +172,12 @@
     },
     { "id":35,
       "name":"clefairy",
-      "types":["normal"],
+      "types":["fairy"],
       "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
     },
     { "id":36,
       "name":"clefable",
-      "types":["normal"],
+      "types":["fairy"],
       "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
     },
     { "id":37,
@@ -192,12 +192,12 @@
     },
     { "id":39,
       "name":"jigglypuff",
-      "types":["normal"],
+      "types":["normal", "fairy"],
       "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
     },
     { "id":40,
       "name":"wigglytuff",
-      "types":["normal"],
+      "types":["normal", "fairy"],
       "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
     },
     { "id":41,
@@ -607,7 +607,7 @@
     },
     { "id":122,
       "name":"mr. mime",
-      "types":["psychic"],
+      "types":["psychic", "fairy"],
       "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png"
     },
     { "id":123,

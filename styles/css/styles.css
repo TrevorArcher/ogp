@@ -19,7 +19,6 @@ fieldset {
   display: inline-block;
   width: 6rem;
   height: 2.8rem;
-  line-height: 2.8rem;
   max-width: 100%;
   font-size: 1rem;
   cursor: pointer;
@@ -38,11 +37,10 @@ fieldset {
   display: inline-block;
   width: 4rem;
   height: 1.8rem;
-  line-height: 1.8rem;
   font-size: 1rem;
   cursor: pointer;
   margin: 0.7rem;
-  border: none;
+  border: 1px solid #ddd;
   border-radius: 3px; }
 
 .search-submit:active,
