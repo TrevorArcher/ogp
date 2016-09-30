@@ -214,7 +214,7 @@
 
 {"id":107,"name":"hitmonchan","maxCP":1516,"candies":"N/A","weakness":["fairy","flying","psychic"],"superWeakness":"N/A","strength":["bug","dark","rock"],"superStrength":"N/A","types":["fighting"]},
 
-{"id":108,"name":"lickitung","maxCP":1626,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"types":["normal"]},
+{"id":108,"name":"lickitung","maxCP":1626,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"superStrength":"N/A","types":["normal"]},
 
 {"id":109,"name":"koffing","maxCP":1151,"candies":50,"weakness":["ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","poison"],"superStrength":"N/A","types":["poison"]},
 
@@ -224,11 +224,11 @@
 
 {"id":112,"name":"rhydon","maxCP":2243,"candies":"N/A","weakness":["fighting","ground","ice","steel"],"superWeakness":["grass","water"],"strength":["fire","flying","normal","rock"],"superStrength":["poison"],"types":["ground","rock"]},
 
-{"id":113,"name":"chansey","maxCP":675,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"types":["normal"]},
+{"id":113,"name":"chansey","maxCP":675,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"superStrength":"N/A","types":["normal"]},
 
 {"id":114,"name":"tangela","maxCP":1739,"candies":"N/A","weakness":["bug","fire","flying","ice","poison"],"superWeakness":"N/A","strength":["electric","grass","ground","water"],"superStrength":"N/A","types":["grass"]},
 
-{"id":115,"name":"kangaskhan","maxCP":2043,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"types":["normal"]},
+{"id":115,"name":"kangaskhan","maxCP":2043,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"superStrength":"N/A","types":["normal"]},
 
 {"id":116,"name":"horsea","maxCP":794,"candies":50,"weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 

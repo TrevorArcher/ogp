@@ -97,9 +97,6 @@ h1{
 
 /*---------- Search results ----------*/
 
-a:nth-of-type(even) div {
-  background-color: #deeeef;
-}
 
 .search-results {
   width: 100%;
@@ -111,7 +108,12 @@ a:nth-of-type(even) div {
   background-color: #efefef;
   padding: 0 auto;
   margin: 0 auto;
-  transition-duration: 0.4s;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+a:nth-of-type(even) .info-card {
+  background-color: #deeeef;
 }
 
 .info-contain {
@@ -157,7 +159,10 @@ a:nth-of-type(even) div {
 .go-info {
   display: inline-block;
   vertical-align: middle;
-  margin: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .very-strong,
@@ -166,158 +171,5 @@ a:nth-of-type(even) div {
 .very-weak {
   display: inline-block;
   vertical-align: top;
-  max-width: 225px;
+  max-width: 215px;
 }
-
-// span.sprite-icon { display: inline-block; height: 30px; width: 40px; background: url(../../images/pokemon-sprite-sheet.png) no-repeat; vertical-align: top;}
-span.sprite-icon-1 { background-position: 0px 0px; }
-span.sprite-icon-2 { background-position: -40px 0px; }
-span.sprite-icon-3 { background-position: -80px 0px; }
-span.sprite-icon-4 { background-position: -120px 0px; }
-span.sprite-icon-5 { background-position: -160px 0px; }
-span.sprite-icon-6 { background-position: -200px 0px; }
-span.sprite-icon-7 { background-position: -240px 0px; }
-span.sprite-icon-8 { background-position: -280px 0px; }
-span.sprite-icon-9 { background-position: -320px 0px; }
-span.sprite-icon-10 { background-position: -360px 0px; }
-span.sprite-icon-11 { background-position: -400px 0px; }
-span.sprite-icon-12 { background-position: -440px 0px; }
-span.sprite-icon-13 { background-position: -480px 0px; }
-span.sprite-icon-14 { background-position: -520px 0px; }
-span.sprite-icon-15 { background-position: -560px 0px; }
-span.sprite-icon-16 { background-position: -600px 0px; }
-span.sprite-icon-17 { background-position: -640px 0px; }
-span.sprite-icon-18 { background-position: -680px 0px; }
-span.sprite-icon-19 { background-position: -720px 0px; }
-span.sprite-icon-20 { background-position: -760px 0px; }
-span.sprite-icon-21 { background-position: -800px 0px; }
-span.sprite-icon-22 { background-position: -840px 0px; }
-span.sprite-icon-23 { background-position: -880px 0px; }
-span.sprite-icon-24 { background-position: -920px 0px; }
-span.sprite-icon-25 { background-position: -960px 0px; }
-span.sprite-icon-26 { background-position: 0px -30px; }
-span.sprite-icon-27 { background-position: -40px -30px; }
-span.sprite-icon-28 { background-position: -80px -30px; }
-span.sprite-icon-29 { background-position: -120px -30px; }
-span.sprite-icon-30 { background-position: -160px -30px; }
-span.sprite-icon-31 { background-position: -200px -30px; }
-span.sprite-icon-32 { background-position: -240px -30px; }
-span.sprite-icon-33 { background-position: -280px -30px; }
-span.sprite-icon-34 { background-position: -320px -30px; }
-span.sprite-icon-35 { background-position: -360px -30px; }
-span.sprite-icon-36 { background-position: -400px -30px; }
-span.sprite-icon-37 { background-position: -440px -30px; }
-span.sprite-icon-38 { background-position: -480px -30px; }
-span.sprite-icon-39 { background-position: -520px -30px; }
-span.sprite-icon-40 { background-position: -560px -30px; }
-span.sprite-icon-41 { background-position: -600px -30px; }
-span.sprite-icon-42 { background-position: -640px -30px; }
-span.sprite-icon-43 { background-position: -680px -30px; }
-span.sprite-icon-44 { background-position: -720px -30px; }
-span.sprite-icon-45 { background-position: -760px -30px; }
-span.sprite-icon-46 { background-position: -800px -30px; }
-span.sprite-icon-47 { background-position: -840px -30px; }
-span.sprite-icon-48 { background-position: -880px -30px; }
-span.sprite-icon-49 { background-position: -920px -30px; }
-span.sprite-icon-50 { background-position: -960px -30px; }
-span.sprite-icon-51 { background-position: 0px -60px; }
-span.sprite-icon-52 { background-position: -40px -60px; }
-span.sprite-icon-53 { background-position: -80px -60px; }
-span.sprite-icon-54 { background-position: -120px -60px; }
-span.sprite-icon-55 { background-position: -160px -60px; }
-span.sprite-icon-56 { background-position: -200px -60px; }
-span.sprite-icon-57 { background-position: -240px -60px; }
-span.sprite-icon-58 { background-position: -280px -60px; }
-span.sprite-icon-59 { background-position: -320px -60px; }
-span.sprite-icon-60 { background-position: -360px -60px; }
-span.sprite-icon-61 { background-position: -400px -60px; }
-span.sprite-icon-62 { background-position: -440px -60px; }
-span.sprite-icon-63 { background-position: -480px -60px; }
-span.sprite-icon-64 { background-position: -520px -60px; }
-span.sprite-icon-65 { background-position: -560px -60px; }
-span.sprite-icon-66 { background-position: -600px -60px; }
-span.sprite-icon-67 { background-position: -640px -60px; }
-span.sprite-icon-68 { background-position: -680px -60px; }
-span.sprite-icon-69 { background-position: -720px -60px; }
-span.sprite-icon-70 { background-position: -760px -60px; }
-span.sprite-icon-71 { background-position: -800px -60px; }
-span.sprite-icon-72 { background-position: -840px -60px; }
-span.sprite-icon-73 { background-position: -880px -60px; }
-span.sprite-icon-74 { background-position: -920px -60px; }
-span.sprite-icon-75 { background-position: -960px -60px; }
-span.sprite-icon-76 { background-position: 0px -90px; }
-span.sprite-icon-77 { background-position: -40px -90px; }
-span.sprite-icon-78 { background-position: -80px -90px; }
-span.sprite-icon-79 { background-position: -120px -90px; }
-span.sprite-icon-80 { background-position: -160px -90px; }
-span.sprite-icon-81 { background-position: -200px -90px; }
-span.sprite-icon-82 { background-position: -240px -90px; }
-span.sprite-icon-83 { background-position: -280px -90px; }
-span.sprite-icon-84 { background-position: -320px -90px; }
-span.sprite-icon-85 { background-position: -360px -90px; }
-span.sprite-icon-86 { background-position: -400px -90px; }
-span.sprite-icon-87 { background-position: -440px -90px; }
-span.sprite-icon-88 { background-position: -480px -90px; }
-span.sprite-icon-89 { background-position: -520px -90px; }
-span.sprite-icon-90 { background-position: -560px -90px; }
-span.sprite-icon-91 { background-position: -600px -90px; }
-span.sprite-icon-92 { background-position: -640px -90px; }
-span.sprite-icon-93 { background-position: -680px -90px; }
-span.sprite-icon-94 { background-position: -720px -90px; }
-span.sprite-icon-95 { background-position: -760px -90px; }
-span.sprite-icon-96 { background-position: -800px -90px; }
-span.sprite-icon-97 { background-position: -840px -90px; }
-span.sprite-icon-98 { background-position: -880px -90px; }
-span.sprite-icon-99 { background-position: -920px -90px; }
-span.sprite-icon-100 { background-position: -960px -90px; }
-span.sprite-icon-101 { background-position: 0px -120px; }
-span.sprite-icon-102 { background-position: -40px -120px; }
-span.sprite-icon-103 { background-position: -80px -120px; }
-span.sprite-icon-104 { background-position: -120px -120px; }
-span.sprite-icon-105 { background-position: -160px -120px; }
-span.sprite-icon-106 { background-position: -200px -120px; }
-span.sprite-icon-107 { background-position: -240px -120px; }
-span.sprite-icon-108 { background-position: -280px -120px; }
-span.sprite-icon-109 { background-position: -320px -120px; }
-span.sprite-icon-110 { background-position: -360px -120px; }
-span.sprite-icon-111 { background-position: -400px -120px; }
-span.sprite-icon-112 { background-position: -440px -120px; }
-span.sprite-icon-113 { background-position: -480px -120px; }
-span.sprite-icon-114 { background-position: -520px -120px; }
-span.sprite-icon-115 { background-position: -560px -120px; }
-span.sprite-icon-116 { background-position: -600px -120px; }
-span.sprite-icon-117 { background-position: -640px -120px; }
-span.sprite-icon-118 { background-position: -680px -120px; }
-span.sprite-icon-119 { background-position: -720px -120px; }
-span.sprite-icon-120 { background-position: -760px -120px; }
-span.sprite-icon-121 { background-position: -800px -120px; }
-span.sprite-icon-122 { background-position: -840px -120px; }
-span.sprite-icon-123 { background-position: -880px -120px; }
-span.sprite-icon-124 { background-position: -920px -120px; }
-span.sprite-icon-125 { background-position: -960px -120px; }
-span.sprite-icon-126 { background-position: 0px -150px; }
-span.sprite-icon-127 { background-position: -40px -150px; }
-span.sprite-icon-128 { background-position: -80px -150px; }
-span.sprite-icon-129 { background-position: -120px -150px; }
-span.sprite-icon-130 { background-position: -160px -150px; }
-span.sprite-icon-131 { background-position: -200px -150px; }
-span.sprite-icon-132 { background-position: -240px -150px; }
-span.sprite-icon-133 { background-position: -280px -150px; }
-span.sprite-icon-134 { background-position: -320px -150px; }
-span.sprite-icon-135 { background-position: -360px -150px; }
-span.sprite-icon-136 { background-position: -400px -150px; }
-span.sprite-icon-137 { background-position: -440px -150px; }
-span.sprite-icon-138 { background-position: -480px -150px; }
-span.sprite-icon-139 { background-position: -520px -150px; }
-span.sprite-icon-140 { background-position: -560px -150px; }
-span.sprite-icon-141 { background-position: -600px -150px; }
-span.sprite-icon-142 { background-position: -640px -150px; }
-span.sprite-icon-143 { background-position: -680px -150px; }
-span.sprite-icon-144 { background-position: -720px -150px; }
-span.sprite-icon-145 { background-position: -760px -150px; }
-span.sprite-icon-146 { background-position: -800px -150px; }
-span.sprite-icon-147 { background-position: -840px -150px; }
-span.sprite-icon-148 { background-position: -880px -150px; }
-span.sprite-icon-149 { background-position: -920px -150px; }
-span.sprite-icon-150 { background-position: -960px -150px; }
-span.sprite-icon-151 { background-position: 0px -180px; }

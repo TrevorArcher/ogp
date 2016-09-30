@@ -123,11 +123,12 @@ var moreDiv = function() {
       url: 'json/ogpokemon.json',
       dataType: 'json',
       success: function(result) {
-        for (var i = 0; i < 5 ; i++) {
+        for (var i = 0; i < 152 ; i++) {
           var pArrResult = result.pokemon[i];
           var pokeStr = '';
           pokeStr += ('<a name="' + pArrResult.name + '" tabindex="0">');
           pokeStr += ('<div class="info-card" value="' + pArrResult.id + '">');
+          pokeStr += ('<div class="info-contain">');
           pokeStr += ('<div class="basic-info">');
 
           if (pArrResult.id.toString().length == 1) {
@@ -138,10 +139,10 @@ var moreDiv = function() {
             pokeStr += ('<p class="info-name">#' + pArrResult.id + ' ' + pArrResult.name + '</p>');
           }
 
-          // var htWt = $('<div class="ht-wt">');
-          //pull other json info
+          pokeStr += ('<div class="ht-wt">');
+          pokeStr += (htWtArr[i]);
 
-          pokeStr += ('<span class="type-container">');
+          pokeStr += ('</div><span class="type-container">');
           if (pArrResult.types.length == 2) {
             pokeStr += ('<span class="' + pArrResult.types[0] + '-select info-type"><p>' + pArrResult.types[0] + '</p></span><span class="' + pArrResult.types[1] + '-select info-type"><p>' + pArrResult.types[1] + '</p></span></span></div>');
           } else {
@@ -183,8 +184,30 @@ var moreDiv = function() {
                 pokeStr += ('<span class="' + pArrResult.superWeakness[m] + '-select info-type"><p>' + pArrResult.superWeakness[m] + '</p></span>');
               }
           }
+          pokeStr += ('</span></div></div></div></a>');
           console.log(pokeStr);
         }
+
     }
   });
+};
+var pHt;
+var pWt;
+var htWtArr = [];
+var htWtFun = function (){
+  for (var i = 1 ; i < 152 ; i++) {
+    $.ajax ({
+      type: 'GET',
+      url: 'scrapes/pokemon/'+ i +'.json',
+      dataType: 'json',
+      success: function(result) {
+        console.log(result.height);
+        console.log(result.weight);
+        pHt = (result.height) / 10;
+        pWt = (result.weight) / 10;
+        htWtArr.push('<p>Height: '+ pHt +'m | Weight: '+ pWt +'kg</p>');
+      }
+    });
+    console.log(htWtArr);
+  }
 }();

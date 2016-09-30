@@ -6,8 +6,6 @@ var mainContent = document.getElementsByTagName('main')[0],
     pTypeArr = [],
     pObj;
 
-
-//type menu generation (good to go!)
 var typeSearchArr = ['Normal','Fire','Water','Grass','Electric','Ice','Fighting','Poison','Ground','Rock','Flying','Bug','Psychic','Ghost','Dragon','Dark','Steel','Fairy'];
 
 var buttonBuild = function(){
@@ -49,29 +47,22 @@ var buttonBuild = function(){
 
 
 
-//Menu search (good to go!) refactor: add click event to fieldset instead of individual buttons
 var typeSelect = document.getElementsByClassName('type');
-console.log(typeSelect);
 for (var i = 0 ; i < typeSelect.length ; i++) {
   typeSelect[i].onclick = function(){
     var thisType = this.value;
     if (pTypeArr.includes(thisType) && (this.classList.contains(thisType + '-select'))){
         pTypeArr.splice(pTypeArr.indexOf(thisType),1);
-        console.log(pTypeArr);
-        console.log('type removed!');
     } else {
       pTypeArr.push(thisType);
-      console.log(pTypeArr);
-      console.log('type has been added!');
     }
     this.classList.toggle(thisType);
     this.classList.toggle(thisType + '-select');
     this.classList.toggle('type-select');
-    console.log(thisType);
   };
 }
 
-//good to go!
+
 document.getElementsByClassName('search-reset')[0].onclick = function(){
   pTypeArr = [];
   $results.innerHTML = '';
@@ -83,58 +74,6 @@ document.getElementsByClassName('search-reset')[0].onclick = function(){
     }
   }
 };
-
-//figure out proper keypress, put into function to call for both static and created cards
-
-var moreInfo = function() {
-  $results.addEventListener('click', function(e) {
-    e.preventDefault();
-    console.log(e.target.value);
-    console.log('not going anywhere');
-  //   var $infoText = $('<div class="info-text">'),
-  //       $htWt = $('<div class="ht-wt">'),
-  //       $ht = $('<h3 class="ht"></h3>'),
-  //       $wt = $('<h3 class="wt"></h3>'),
-  //       pId = '',
-  //       pName = ($(this).find($('.info-name')).text()),
-  //       pHt = '',
-  //       pWt = '',
-  //
-  //   var thisId = this.getAttribute('value');
-  //
-  //   $(this).toggleClass('more-info');
-  //   $('.info-text').empty();
-  //   $infoOver.fadeToggle();
-  //   if ($(this).hasClass('more-info')){
-  //     $.ajax({
-  //       type: 'GET',
-  //       url: 'scrapes/pokemon/'+ thisId +'.json',
-  //       dataType: 'json',
-  //       success: function(result){
-  //         console.log(result);
-  //         pId = result.id;
-  //         pHt = (result.height) / 10;
-  //         pWt = (result.weight) / 10;
-  //         $infoOver.append($infoText);
-  //         if (pId.toString().length == 1) {
-  //           $infoText.append($('<h1 class="name-overlay">').text('#00' + pId + ' ' + pName));
-  //         } else if (pId.toString().length == 2) {
-  //           $infoText.append($('<h1 class="name-overlay">').text('#0' + pId + ' ' + pName));
-  //         } else {
-  //           $infoText.append($('<h1 class="name-overlay">').text('#' + pId + ' ' + pName));
-  //         }
-  //         $infoText.append($htWt);
-  //         $htWt.append($ht.text('Height: ' + pHt + 'm'));
-  //         $htWt.append($wt.text('Weight: ' + pWt + 'kg'));
-  //         $infoText.append($statContain);
-  //       }
-  //     });
-  //   }
-  //   $('.close-overlay').focus();
-  });
-}();
-
-//Build results cards (good to go!)
 
 var requestFun = function() {
   var r = new XMLHttpRequest();
@@ -192,10 +131,3 @@ document.getElementsByClassName('search-submit')[0].onclick = function(){
   $results.innerHTML = '';
   requestFun();
 };
-
-//
-// $('.close-overlay').on('click', function() {
-//   $('.info-card').removeClass('more-info');
-//   $('.info-text').empty();
-//   $infoOver.fadeToggle();
-// });
