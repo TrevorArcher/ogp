@@ -6,9 +6,6 @@ var mainContent = document.getElementsByTagName('main')[0],
     pTypeArr = [],
     pObj;
 
-//good to go!
-
-
 
 //type menu generation (good to go!)
 var typeSearchArr = ['Normal','Fire','Water','Grass','Electric','Ice','Fighting','Poison','Ground','Rock','Flying','Bug','Psychic','Ghost','Dragon','Dark','Steel','Fairy'];
@@ -87,7 +84,58 @@ document.getElementsByClassName('search-reset')[0].onclick = function(){
   }
 };
 
-//Build results cards, add <a> tags to buttons
+//figure out proper keypress, put into function to call for both static and created cards
+var moreInfo = function() {
+  var infoCards = document.getElementsByClassName('info-card');
+  for (var i = 0 ; i < infoCards.length ; i++) {
+    infoCards[i].onclick = function(e) {
+    e.preventDefault();
+    console.log('not going anywhere');
+  //   var $infoText = $('<div class="info-text">'),
+  //       $htWt = $('<div class="ht-wt">'),
+  //       $ht = $('<h3 class="ht"></h3>'),
+  //       $wt = $('<h3 class="wt"></h3>'),
+  //       pId = '',
+  //       pName = ($(this).find($('.info-name')).text()),
+  //       pHt = '',
+  //       pWt = '',
+  //
+  //   var thisId = this.getAttribute('value');
+  //
+  //   $(this).toggleClass('more-info');
+  //   $('.info-text').empty();
+  //   $infoOver.fadeToggle();
+  //   if ($(this).hasClass('more-info')){
+  //     $.ajax({
+  //       type: 'GET',
+  //       url: 'scrapes/pokemon/'+ thisId +'.json',
+  //       dataType: 'json',
+  //       success: function(result){
+  //         console.log(result);
+  //         pId = result.id;
+  //         pHt = (result.height) / 10;
+  //         pWt = (result.weight) / 10;
+  //         $infoOver.append($infoText);
+  //         if (pId.toString().length == 1) {
+  //           $infoText.append($('<h1 class="name-overlay">').text('#00' + pId + ' ' + pName));
+  //         } else if (pId.toString().length == 2) {
+  //           $infoText.append($('<h1 class="name-overlay">').text('#0' + pId + ' ' + pName));
+  //         } else {
+  //           $infoText.append($('<h1 class="name-overlay">').text('#' + pId + ' ' + pName));
+  //         }
+  //         $infoText.append($htWt);
+  //         $htWt.append($ht.text('Height: ' + pHt + 'm'));
+  //         $htWt.append($wt.text('Weight: ' + pWt + 'kg'));
+  //         $infoText.append($statContain);
+  //       }
+  //     });
+  //   }
+  //   $('.close-overlay').focus();
+    };
+  }
+}();
+
+//Build results cards (good to go!)
 
 var requestFun = function() {
   var r = new XMLHttpRequest();
@@ -97,6 +145,7 @@ var requestFun = function() {
   };
   r.open("GET", "json/ogpokemon.json", true);
   r.send();
+  moreInfo();
 };
 
 var buildResults = function(xml) {
@@ -106,30 +155,36 @@ var buildResults = function(xml) {
     var nextP = pObj.pokemon[i],
     pName = nextP.name;
 
+    var cardLink = document.createElement('a');
+    cardLink.setAttribute('href', 'more.html#' + pName);
+
     var cardButton = document.createElement('button');
     cardButton.setAttribute('class', 'info-card');
     cardButton.setAttribute('value', nextP.id);
 
     var namePar = document.createElement('p');
+    var nameParText = document.createTextNode(pName);
     namePar.setAttribute('class', 'info-name');
 
     var typeContain = document.createElement('span');
     typeContain.setAttribute('class', 'type-container');
 
     if ((pTypeArr.includes(nextP.types[0]) || pTypeArr.includes(nextP.types[1]))) {
-      namePar.append(pName);
-      cardButton.append(namePar);
+      namePar.appendChild(nameParText);
+      cardButton.appendChild(namePar);
       for (var j = 0 ; j < nextP.types.length ; j++) {
         var type = document.createElement('span');
         type.setAttribute('class', 'info-type ' + nextP.types[j] + '-select');
 
         var typePar = document.createElement('p');
-        typePar.append(nextP.types[j]);
-        type.append(typePar);
-        typeContain.append(type);
+        var typeParText = document.createTextNode(nextP.types[j]);
+        typePar.appendChild(typeParText);
+        type.appendChild(typePar);
+        typeContain.appendChild(type);
       }
-      cardButton.append(typeContain);
-      $results.append(cardButton);
+      cardButton.appendChild(typeContain);
+      cardLink.appendChild(cardButton);
+      $results.appendChild(cardLink);
     }
   }
 };
@@ -139,58 +194,6 @@ document.getElementsByClassName('search-submit')[0].onclick = function(){
   requestFun();
 };
 
-//figure out proper keypress
-var infoCards = document.getElementsByClassName('info-card');
-
-for (var i = 0 ; i < infoCards.length ; i++) {
-  infoCards[i].onclick = function(e) {
-  e.preventDefault();
-  console.log('not going anywhere');
-//   var $infoText = $('<div class="info-text">'),
-//       $htWt = $('<div class="ht-wt">'),
-//       $ht = $('<h3 class="ht"></h3>'),
-//       $wt = $('<h3 class="wt"></h3>'),
-//       pId = '',
-//       pName = ($(this).find($('.info-name')).text()),
-//       pHt = '',
-//       pWt = '',
-//
-//   var thisId = this.getAttribute('value');
-//
-//   $(this).toggleClass('more-info');
-//   $('.info-text').empty();
-//   $infoOver.fadeToggle();
-//   if ($(this).hasClass('more-info')){
-//     $.ajax({
-//       type: 'GET',
-//       url: 'scrapes/pokemon/'+ thisId +'.json',
-//       dataType: 'json',
-//       success: function(result){
-//         console.log(result);
-//         pId = result.id;
-//         pHt = (result.height) / 10;
-//         pWt = (result.weight) / 10;
-//         $infoOver.append($infoText);
-//         if (pId.toString().length == 1) {
-//           $infoText.append($('<h1 class="name-overlay">').text('#00' + pId + ' ' + pName));
-//         } else if (pId.toString().length == 2) {
-//           $infoText.append($('<h1 class="name-overlay">').text('#0' + pId + ' ' + pName));
-//         } else {
-//           $infoText.append($('<h1 class="name-overlay">').text('#' + pId + ' ' + pName));
-//         }
-//         $infoText.append($htWt);
-//         $htWt.append($ht.text('Height: ' + pHt + 'm'));
-//         $htWt.append($wt.text('Weight: ' + pWt + 'kg'));
-//         $infoText.append($statContain);
-//         for (var key in pStats){
-//           $statContain.append($('<div class="stat ' + key + '">').html(key + '<br>' + pStats[key]));
-//         }
-//       }
-//     });
-//   }
-//   $('.close-overlay').focus();
-  };
-}
 //
 // $('.close-overlay').on('click', function() {
 //   $('.info-card').removeClass('more-info');

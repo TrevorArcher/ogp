@@ -1,759 +1,305 @@
+{"pokemon": [
 
-{ "pokemon":[
-    { "id":1,
-      "name":"bulbasaur",
-      "types":["grass", "poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
-    },
-    { "id":2,
-      "name":"ivysaur",
-      "types":["grass", "poison"],
-      "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
-    },
-    { "id":3,
-      "name":"venusaur",
-      "types":["grass", "poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
-    },
-    { "id":4,
-      "name":"charmander",
-      "types":["fire"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
-    },
-    { "id":5,
-      "name":"charmeleon",
-      "types":["fire"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
-    },
-    { "id":6,
-      "name":"charizard",
-      "types":["fire", "flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
-    },
-    { "id":7,
-      "name":"squirtle",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
-    },
-    { "id":8,
-      "name":"wartortle",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
-    },
-    { "id":9,
-      "name":"blastoise",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
-    },
-    { "id":10,
-      "name":"caterpie",
-      "types":["bug"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
-    },
-    { "id":11,
-      "name":"metapod",
-      "types":["bug"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
-    },
-    { "id":12,
-      "name":"butterfree",
-      "types":["bug","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
-    },
-    { "id":13,
-      "name":"weedle",
-      "types":["bug","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
-    },
-    { "id":14,
-      "name":"kakuna",
-      "types":["bug","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
-    },
-    { "id":15,
-      "name":"beedrill",
-      "types":["bug","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
-    },
-    { "id":16,
-      "name":"pidgey",
-      "types":["normal","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
-    },
-    { "id":17,
-      "name":"pidgeotto",
-      "types":["normal","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
-    },
-    { "id":18,
-      "name":"pidgeot",
-      "types":["normal","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
-    },
-    { "id":19,
-      "name":"rattata",
-      "types":["normal"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
-    },
-    { "id":20,
-      "name":"raticate",
-      "types":["normal"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
-    },
-    { "id":21,
-      "name":"spearow",
-      "types":["normal","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
-    },
-    { "id":22,
-      "name":"fearow",
-      "types":["normal","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
-    },
-    { "id":23,
-      "name":"ekans",
-      "types":["poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
-    },
-    { "id":24,
-      "name":"arbok",
-      "types":["poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
-    },
-    { "id":25,
-      "name":"pikachu",
-      "types":["electric"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
-    },
-    { "id":26,
-      "name":"raichu",
-      "types":["electric"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
-    },
-    { "id":27,
-      "name":"sandshrew",
-      "types":["ground"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
-    },
-    { "id":28,
-      "name":"sandslash",
-      "types":["ground"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
-    },
-    { "id":29,
-      "name":"nidoran-f",
-      "types":["poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
-    },
-    { "id":30,
-      "name":"nidorina",
-      "types":["poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
-    },
-    { "id":31,
-      "name":"nidoqueen",
-      "types":["poison","ground"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
-    },
-    { "id":32,
-      "name":"nidoran-m",
-      "types":["poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
-    },
-    { "id":33,
-      "name":"nidorino",
-      "types":["poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
-    },
-    { "id":34,
-      "name":"nidoking",
-      "types":["poison","ground"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
-    },
-    { "id":35,
-      "name":"clefairy",
-      "types":["fairy"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
-    },
-    { "id":36,
-      "name":"clefable",
-      "types":["fairy"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
-    },
-    { "id":37,
-      "name":"vulpix",
-      "types":["fire"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
-    },
-    { "id":38,
-      "name":"ninetales",
-      "types":["fire"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
-    },
-    { "id":39,
-      "name":"jigglypuff",
-      "types":["normal", "fairy"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
-    },
-    { "id":40,
-      "name":"wigglytuff",
-      "types":["normal", "fairy"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
-    },
-    { "id":41,
-      "name":"zubat",
-      "types":["poison","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
-    },
-    { "id":42,
-      "name":"golbat",
-      "types":["poison","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
-    },
-    { "id":43,
-      "name":"oddish",
-      "types":["grass","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
-    },
-    { "id":44,
-      "name":"gloom",
-      "types":["grass","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
-    },
-    { "id":45,
-      "name":"vileplume",
-      "types":["grass","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
-    },
-    { "id":46,
-      "name":"paras",
-      "types":["bug","grass"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
-    },
-    { "id":47,
-      "name":"parasect",
-      "types":["bug","grass"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
-    },
-    { "id":48,
-      "name":"venonat",
-      "types":["bug","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
-    },
-    { "id":49,
-      "name":"venomoth",
-      "types":["bug","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
-    },
-    { "id":50,
-      "name":"diglett",
-      "types":["ground"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
-    },
-    { "id":51,
-      "name":"dugtrio",
-      "types":["ground"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
-    },
-    { "id":52,
-      "name":"meowth",
-      "types":["normal"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
-    },
-    { "id":53,
-      "name":"persian",
-      "types":["normal"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
-    },
-    { "id":54,
-      "name":"psyduck",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
-    },
-    { "id":55,
-      "name":"golduck",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
-    },
-    { "id":56,
-      "name":"mankey",
-      "types":["fighting"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
-    },
-    { "id":57,
-      "name":"primeape",
-      "types":["fighting"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
-    },
-    { "id":58,
-      "name":"growlithe",
-      "types":["fire"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
-    },
-    { "id":59,
-      "name":"arcanine",
-      "types":["fire"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
-    },
-    { "id":60,
-      "name":"poliwag",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
-    },
-    { "id":61,
-      "name":"poliwhirl",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
-    },
-    { "id":62,
-      "name":"poliwrath",
-      "types":["water","fighting"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
-    },
-    { "id":63,
-      "name":"abra",
-      "types":["psychic"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
-    },
-    { "id":64,
-      "name":"kadabra",
-      "types":["psychic"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
-    },
-    { "id":65,
-      "name":"alakazam",
-      "types":["psychic"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
-    },
-    { "id":66,
-      "name":"machop",
-      "types":["fighting"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
-    },
-    { "id":67,
-      "name":"machoke",
-      "types":["fighting"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
-    },
-    { "id":68,
-      "name":"machamp",
-      "types":["fighting"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
-    },
-    { "id":69,
-      "name":"bellsprout",
-      "types":["grass","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
-    },
-    { "id":70,
-      "name":"weepinbell",
-      "types":["grass","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
-    },
-    { "id":71,
-      "name":"victreebel",
-      "types":["grass","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
-    },
-    { "id":72,
-      "name":"tentacool",
-      "types":["water","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
-    },
-    { "id":73,
-      "name":"tentacruel",
-      "types":["water","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
-    },
-    { "id":74,
-      "name":"geodude",
-      "types":["rock","ground"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
-    },
-    { "id":75,
-      "name":"graveler",
-      "types":["rock","ground"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
-    },
-    { "id":76,
-      "name":"golem",
-      "types":["rock","ground"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
-    },
-    { "id":77,
-      "name":"ponyta",
-      "types":["fire"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
-    },
-    { "id":78,
-      "name":"rapidash",
-      "types":["fire"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
-    },
-    { "id":79,
-      "name":"slowpoke",
-      "types":["water","psychic"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
-    },
-    { "id":80,
-      "name":"slowbro",
-      "types":["water","psychic"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
-    },
-    { "id":81,
-      "name":"magnemite",
-      "types":["electric"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
-    },
-    { "id":82,
-      "name":"magneton",
-      "types":["electric"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
-    },
-    { "id":83,
-      "name":"farfetch'd",
-      "types":["normal","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png"
-    },
-    { "id":84,
-      "name":"doduo",
-      "types":["normal","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
-    },
-    { "id":85,
-      "name":"dodrio",
-      "types":["normal","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png"
-    },
-    { "id":86,
-      "name":"seel",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
-    },
-    { "id":87,
-      "name":"dewgong",
-      "types":["water","ice"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
-    },
-    { "id":88,
-      "name":"grimer",
-      "types":["poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
-    },
-    { "id":89,
-      "name":"muk",
-      "types":["poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
-    },
-    { "id":90,
-      "name":"shellder",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
-    },
-    { "id":91,
-      "name":"cloyster",
-      "types":["water","ice"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
-    },
-    { "id":92,
-      "name":"gastly",
-      "types":["ghost","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
-    },
-    { "id":93,
-      "name":"haunter",
-      "types":["ghost","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
-    },
-    { "id":94,
-      "name":"gengar",
-      "types":["ghost","poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
-    },
-    { "id":95,
-      "name":"onix",
-      "types":["rock","ground"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
-    },
-    { "id":96,
-      "name":"drowzee",
-      "types":["psychic"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
-    },
-    { "id":97,
-      "name":"hypno",
-      "types":["psychic"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
-    },
-    { "id":98,
-      "name":"krabby",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png"
-    },
-    { "id":99,
-      "name":"kingler",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png"
-    },
-    { "id":100,
-      "name":"voltorb",
-      "types":["electric"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png"
-    },
-    { "id":101,
-      "name":"electrode",
-      "types":["electric"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png"
-    },
-    { "id":102,
-      "name":"exeggcute",
-      "types":["grass","psychic"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png"
-    },
-    { "id":103,
-      "name":"exeggutor",
-      "types":["grass","psychic"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png"
-    },
-    { "id":104,
-      "name":"cubone",
-      "types":["ground"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
-    },
-    { "id":105,
-      "name":"marowak",
-      "types":["ground"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
-    },
-    { "id":106,
-      "name":"hitmonlee",
-      "types":["fighting"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png"
-    },
-    { "id":107,
-      "name":"hitmonchan",
-      "types":["fighting"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png"
-    },
-    { "id":108,
-      "name":"lickitung",
-      "types":["normal"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
-    },
-    { "id":109,
-      "name":"koffing",
-      "types":["poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
-    },
-    { "id":110,
-      "name":"weezing",
-      "types":["poison"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
-    },
-    { "id":111,
-      "name":"rhyhorn",
-      "types":["ground","rock"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
-    },
-    { "id":112,
-      "name":"rhydon",
-      "types":["ground","rock"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
-    },
-    { "id":113,
-      "name":"chansey",
-      "types":["normal"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
-    },
-    { "id":114,
-      "name":"tangela",
-      "types":["grass"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"
-    },
-    { "id":115,
-      "name":"kangaskhan",
-      "types":["normal"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png"
-    },
-    { "id":116,
-      "name":"horsea",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
-    },
-    { "id":117,
-      "name":"seadra",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
-    },
-    { "id":118,
-      "name":"goldeen",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
-    },
-    { "id":119,
-      "name":"seaking",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
-    },
-    { "id":120,
-      "name":"staryu",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
-    },
-    { "id":121,
-      "name":"starmie",
-      "types":["water","psychic"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
-    },
-    { "id":122,
-      "name":"mr. mime",
-      "types":["psychic", "fairy"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png"
-    },
-    { "id":123,
-      "name":"scyther",
-      "types":["bug","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"
-    },
-    { "id":124,
-      "name":"jynx",
-      "types":["ice","psychic"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png"
-    },
-    { "id":125,
-      "name":"electabuzz",
-      "types":["electric"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png"
-    },
-    { "id":126,
-      "name":"magmar",
-      "types":["fire"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
-    },
-    { "id":127,
-      "name":"pinsir",
-      "types":["bug"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
-    },
-    { "id":128,
-      "name":"tauros",
-      "types":["normal"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png"
-    },
-    { "id":129,
-      "name":"magikarp",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
-    },
-    { "id":130,
-      "name":"gyarados",
-      "types":["water","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
-    },
-    { "id":131,
-      "name":"lapras",
-      "types":["water","ice"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
-    },
-    { "id":132,
-      "name":"ditto",
-      "types":["normal"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
-    },
-    { "id":133,
-      "name":"eevee",
-      "types":["normal"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
-    },
-    { "id":134,
-      "name":"vaporeon",
-      "types":["water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
-    },
-    { "id":135,
-      "name":"jolteon",
-      "types":["electric"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
-    },
-    { "id":136,
-      "name":"flareon",
-      "types":["fire"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
-    },
-    { "id":137,
-      "name":"porygon",
-      "types":["normal"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png"
-    },
-    { "id":138,
-      "name":"omanyte",
-      "types":["rock","water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png"
-    },
-    { "id":139,
-      "name":"omastar",
-      "types":["rock","water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png"
-    },
-    { "id":140,
-      "name":"kabuto",
-      "types":["rock","water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png"
-    },
-    { "id":141,
-      "name":"kabutops",
-      "types":["rock","water"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png"
-    },
-    { "id":142,
-      "name":"aerodactyl",
-      "types":["rock","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png"
-    },
-    { "id":143,
-      "name":"snorlax",
-      "types":["normal"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
-    },
-    { "id":144,
-      "name":"articuno",
-      "types":["ice","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png"
-    },
-    { "id":145,
-      "name":"zapdos",
-      "types":["electric","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
-    },
-    { "id":146,
-      "name":"moltres",
-      "types":["fire","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
-    },
-    { "id":147,
-      "name":"dratini",
-      "types":["dragon"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
-    },
-    { "id":148,
-      "name":"dragonair",
-      "types":["dragon"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
-    },
-    { "id":149,
-      "name":"dragonite",
-      "types":["dragon","flying"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
-    },
-    { "id":150,
-      "name":"mewtwo",
-      "types":["psychic"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
-    },
-    { "id":151,
-      "name":"mew",
-      "types":["psychic"],
-      "sprites":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"
-    }
-]
-}
+{"id":1,"name":"bulbasaur","maxCP":1071,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+
+{"id":2,"name":"ivysaur","maxCP":1632,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+
+{"id":3,"name":"venusaur","maxCP":2580,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+
+{"id":4,"name":"charmander","maxCP":955,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+
+{"id":5,"name":"charmeleon","maxCP":1577,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+
+{"id":6,"name":"charizard","maxCP":2602,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire","flying"]},
+
+{"id":7,"name":"squirtle","maxCP":1008,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":8,"name":"wartortle","maxCP":1582,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":9,"name":"blastoise","maxCP":2542,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":10,"name":"caterpie","maxCP":443,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug"]},
+
+{"id":11,"name":"metapod","maxCP":477,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug"]},
+
+{"id":12,"name":"butterfree","maxCP":1454,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","flying"]},
+
+{"id":13,"name":"weedle","maxCP":449,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","poison"]},
+
+{"id":14,"name":"kakuna","maxCP":485,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","poison"]},
+
+{"id":15,"name":"beedrill","maxCP":1439,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","poison"]},
+
+{"id":16,"name":"pidgey","maxCP":679,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+
+{"id":17,"name":"pidgeotto","maxCP":1223,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+
+{"id":18,"name":"pidgeot","maxCP":2091,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+
+{"id":19,"name":"rattata","maxCP":581,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+
+{"id":20,"name":"raticate","maxCP":1444,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+
+{"id":21,"name":"spearow","maxCP":686,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+
+{"id":22,"name":"fearow","maxCP":1746,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+
+{"id":23,"name":"ekans","maxCP":824,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+
+{"id":24,"name":"arbok","maxCP":1767,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+
+{"id":25,"name":"pikachu","maxCP":887,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric"]},
+
+{"id":26,"name":"raichu","maxCP":2028,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric"]},
+
+{"id":27,"name":"sandshrew","maxCP":798,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground"]},
+
+{"id":28,"name":"sandslash","maxCP":1810,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground"]},
+
+{"id":29,"name":"nidoran-f","maxCP":876,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+
+{"id":30,"name":"nidorina","maxCP":1404,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+
+{"id":31,"name":"nidoqueen","maxCP":2485,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison","ground"]},
+
+{"id":32,"name":"nidoran-m","maxCP":843,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+
+{"id":33,"name":"nidorino","maxCP":1372,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+
+{"id":34,"name":"nidoking","maxCP":2475,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison","ground"]},
+
+{"id":35,"name":"clefairy","maxCP":1200,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fairy"]},
+
+{"id":36,"name":"clefable","maxCP":2397,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fairy"]},
+
+{"id":37,"name":"vulpix","maxCP":831,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+
+{"id":38,"name":"ninetales","maxCP":2188,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+
+{"id":39,"name":"jigglypuff","maxCP":917,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","fairy"]},
+
+{"id":40,"name":"wigglytuff","maxCP":2177,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","fairy"]},
+
+{"id":41,"name":"zubat","maxCP":642,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison","flying"]},
+
+{"id":42,"name":"golbat","maxCP":1921,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison","flying"]},
+
+{"id":43,"name":"oddish","maxCP":1148,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+
+{"id":44,"name":"gloom","maxCP":1689,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+
+{"id":45,"name":"vileplume","maxCP":2492,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+
+{"id":46,"name":"paras","maxCP":916,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","grass"]},
+
+{"id":47,"name":"parasect","maxCP":1747,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","grass"]},
+
+{"id":48,"name":"venonat","maxCP":1029,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","poison"]},
+
+{"id":49,"name":"venomoth","maxCP":1890,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","poison"]},
+
+{"id":50,"name":"diglett","maxCP":456,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground"]},
+
+{"id":51,"name":"dugtrio","maxCP":1168,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground"]},
+
+{"id":52,"name":"meowth","maxCP":756,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+
+{"id":53,"name":"persian","maxCP":1631,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+
+{"id":54,"name":"psyduck","maxCP":1109,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":55,"name":"golduck","maxCP":2386,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":56,"name":"mankey","maxCP":878,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+
+{"id":57,"name":"primeape","maxCP":1864,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+
+{"id":58,"name":"growlithe","maxCP":1335,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+
+{"id":59,"name":"arcanine","maxCP":2983,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+
+{"id":60,"name":"poliwag","maxCP":795,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":61,"name":"poliwhirl","maxCP":1340,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":62,"name":"poliwrath","maxCP":2505,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","fighting"]},
+
+{"id":63,"name":"abra","maxCP":600,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]},
+
+{"id":64,"name":"kadabra","maxCP":1131,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]},
+
+{"id":65,"name":"alakazam","maxCP":1813,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]},
+
+{"id":66,"name":"machop","maxCP":1089,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+
+{"id":67,"name":"machoke","maxCP":1760,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+
+{"id":68,"name":"machamp","maxCP":2594,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+
+{"id":69,"name":"bellsprout","maxCP":1117,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+
+{"id":70,"name":"weepinbell","maxCP":1723,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+
+{"id":71,"name":"victreebel","maxCP":2530,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+
+{"id":72,"name":"tentacool","maxCP":905,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","poison"]},
+
+{"id":73,"name":"tentacruel","maxCP":2220,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","poison"]},
+
+{"id":74,"name":"geodude","maxCP":849,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","ground"]},
+
+{"id":75,"name":"graveler","maxCP":1433,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","ground"]},
+
+{"id":76,"name":"golem","maxCP":2303,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","ground"]},
+
+{"id":77,"name":"ponyta","maxCP":1516,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+
+{"id":78,"name":"rapidash","maxCP":2199,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+
+{"id":79,"name":"slowpoke","maxCP":1218,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","psychic"]},
+
+{"id":80,"name":"slowbro","maxCP":2597,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","psychic"]},
+
+{"id":81,"name":"magnemite","maxCP":890,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric","steel"]},
+
+{"id":82,"name":"magneton","maxCP":1879,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric","steel"]},
+
+{"id":83,"name":"farfetchd","maxCP":1263,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+
+{"id":84,"name":"doduo","maxCP":855,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+
+{"id":85,"name":"dodrio","maxCP":1836,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+
+{"id":86,"name":"seel","maxCP":1107,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":87,"name":"dewgong","maxCP":2145,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","ice"]},
+
+{"id":88,"name":"grimer","maxCP":1284,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+
+{"id":89,"name":"muk","maxCP":2602,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+
+{"id":90,"name":"shellder","maxCP":822,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":91,"name":"cloyster","maxCP":2052,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","ice"]},
+
+{"id":92,"name":"gastly","maxCP":804,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ghost","poison"]},
+
+{"id":93,"name":"haunter","maxCP":1380,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ghost","poison"]},
+
+{"id":94,"name":"gengar","maxCP":2078,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ghost","poison"]},
+
+{"id":95,"name":"onix","maxCP":857,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","ground"]},
+
+{"id":96,"name":"drowzee","maxCP":1075,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]},
+
+{"id":97,"name":"hypno","maxCP":2184,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]},
+
+{"id":98,"name":"krabby","maxCP":792,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":99,"name":"kingler","maxCP":1823,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":100,"name":"voltorb","maxCP":839,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric"]},
+
+{"id":101,"name":"electrode","maxCP":1646,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric"]},
+
+{"id":102,"name":"exeggcute","maxCP":1099,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","psychic"]},
+
+{"id":103,"name":"exeggutor","maxCP":2955,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","psychic"]},
+
+{"id":104,"name":"cubone","maxCP":1006,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground"]},
+
+{"id":105,"name":"marowak","maxCP":1656,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground"]},
+
+{"id":106,"name":"hitmonlee","maxCP":1492,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+
+{"id":107,"name":"hitmonchan","maxCP":1516,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+
+{"id":108,"name":"lickitung","maxCP":1626,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+
+{"id":109,"name":"koffing","maxCP":1151,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+
+{"id":110,"name":"weezing","maxCP":2250,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+
+{"id":111,"name":"rhyhorn","maxCP":1182,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground","rock"]},
+
+{"id":112,"name":"rhydon","maxCP":2243,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground","rock"]},
+
+{"id":113,"name":"chansey","maxCP":675,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+
+{"id":114,"name":"tangela","maxCP":1739,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass"]},
+
+{"id":115,"name":"kangaskhan","maxCP":2043,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+
+{"id":116,"name":"horsea","maxCP":794,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":117,"name":"seadra","maxCP":1713,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":118,"name":"goldeen","maxCP":965,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":119,"name":"seaking","maxCP":2035,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":120,"name":"staryu","maxCP":937,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":121,"name":"starmie","maxCP":2182,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","psychic"]},
+
+{"id":122,"name":"mr-mime","maxCP":1494,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic","fairy"]},
+
+{"id":123,"name":"scyther","maxCP":2073,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","flying"]},
+
+{"id":124,"name":"jynx","maxCP":1716,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ice","psychic"]},
+
+{"id":125,"name":"electabuzz","maxCP":2119,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric"]},
+
+{"id":126,"name":"magmar","maxCP":2265,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+
+{"id":127,"name":"pinsir","maxCP":2121,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug"]},
+
+{"id":128,"name":"tauros","maxCP":1844,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+
+{"id":129,"name":"magikarp","maxCP":262,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":130,"name":"gyarados","maxCP":2688,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","flying"]},
+
+{"id":131,"name":"lapras","maxCP":2980,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","ice"]},
+
+{"id":132,"name":"ditto","maxCP":919,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+
+{"id":133,"name":"eevee","maxCP":1077,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+
+{"id":134,"name":"vaporeon","maxCP":2816,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+
+{"id":135,"name":"jolteon","maxCP":2140,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric"]},
+
+{"id":136,"name":"flareon","maxCP":2643,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+
+{"id":137,"name":"porygon","maxCP":1691,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+
+{"id":138,"name":"omanyte","maxCP":1119,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","water"]},
+
+{"id":139,"name":"omastar","maxCP":2233,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","water"]},
+
+{"id":140,"name":"kabuto","maxCP":1104,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","water"]},
+
+{"id":141,"name":"kabutops","maxCP":2130,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","water"]},
+
+{"id":142,"name":"aerodactyl","maxCP":2165,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","flying"]},
+
+{"id":143,"name":"snorlax","maxCP":3112,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+
+{"id":144,"name":"articuno","maxCP":2978,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ice","flying"]},
+
+{"id":145,"name":"zapdos","maxCP":3114,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric","flying"]},
+
+{"id":146,"name":"moltres","maxCP":3240,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire","flying"]},
+
+{"id":147,"name":"dratini","maxCP":983,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["dragon"]},
+
+{"id":148,"name":"dragonair","maxCP":1747,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["dragon"]},
+
+{"id":149,"name":"dragonite","maxCP":3500,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["dragon","flying"]},
+
+{"id":150,"name":"mewtwo","maxCP":4144,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]},
+
+{"id":151,"name":"mew","maxCP":3299,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]},
+
+]}
