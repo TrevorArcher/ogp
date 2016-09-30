@@ -145,7 +145,6 @@ var requestFun = function() {
   };
   r.open("GET", "json/ogpokemon.json", true);
   r.send();
-  moreInfo();
 };
 
 var buildResults = function(xml) {
