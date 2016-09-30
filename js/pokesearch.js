@@ -49,7 +49,7 @@ var buttonBuild = function(){
 
 
 
-//Menu search (good to go!)
+//Menu search (good to go!) refactor: add click event to fieldset instead of individual buttons
 var typeSelect = document.getElementsByClassName('type');
 console.log(typeSelect);
 for (var i = 0 ; i < typeSelect.length ; i++) {
@@ -85,11 +85,11 @@ document.getElementsByClassName('search-reset')[0].onclick = function(){
 };
 
 //figure out proper keypress, put into function to call for both static and created cards
+
 var moreInfo = function() {
-  var infoCards = document.getElementsByClassName('info-card');
-  for (var i = 0 ; i < infoCards.length ; i++) {
-    infoCards[i].onclick = function(e) {
+  $results.addEventListener('click', function(e) {
     e.preventDefault();
+    console.log(e.target.value);
     console.log('not going anywhere');
   //   var $infoText = $('<div class="info-text">'),
   //       $htWt = $('<div class="ht-wt">'),
@@ -131,8 +131,7 @@ var moreInfo = function() {
   //     });
   //   }
   //   $('.close-overlay').focus();
-    };
-  }
+  });
 }();
 
 //Build results cards (good to go!)
@@ -181,6 +180,7 @@ var buildResults = function(xml) {
         type.appendChild(typePar);
         typeContain.appendChild(type);
       }
+
       cardButton.appendChild(typeContain);
       cardLink.appendChild(cardButton);
       $results.appendChild(cardLink);

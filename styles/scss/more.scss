@@ -7,6 +7,10 @@
   font-family: $defaultFont;
 }
 
+body {
+  color: $defaultColor;
+}
+
 h1{
   text-align: center;
 }
@@ -29,6 +33,8 @@ h1{
 .dark-select,
 .steel-select,
 .fairy-select {
+  font-weight: bold;
+  letter-spacing: 0.05rem;
   color: #fff;
   border: none;
 }
@@ -90,13 +96,27 @@ h1{
 }
 
 /*---------- Search results ----------*/
-.search-results {
-  width: 100%;
+
+a:nth-of-type(even) div {
+  background-color: #deeeef;
 }
 
-.info-img {
-  margin-right: 0.5rem;
-  margin-top: -0.25rem;
+.search-results {
+  width: 100%;
+  text-align: center;
+}
+
+.info-card {
+  width: 100%;
+  background-color: #efefef;
+  padding: 0 auto;
+  margin: 0 auto;
+  transition-duration: 0.4s;
+}
+
+.info-contain {
+  display: inline-block;
+  padding: 1rem;
 }
 
 .info-name {
@@ -105,26 +125,18 @@ h1{
   color: #4f4f5f;
 }
 
-.info-card {
-  width: 100%;
-  height: 10rem;
-  background-color: #efefef;
-  padding: 0 auto;
-  margin: 0 auto;
-  transition-duration: 0.4s;
-}
-
-a:nth-of-type(even) div {
-  background-color: #deeeef;
+.ht-wt {
+  p {
+    display: inline;
+  }
 }
 
 .type-container {
   display: block;
   width: 100%;
-}
-
-.type-container p {
-  text-align: center;
+  p {
+    text-align: center;
+  }
 }
 
 .info-type {
@@ -139,6 +151,22 @@ a:nth-of-type(even) div {
   p {
     margin: 0;
   }
+}
+
+.basic-info,
+.go-info {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1.5rem;
+}
+
+.very-strong,
+.strong,
+.weak,
+.very-weak {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 225px;
 }
 
 // span.sprite-icon { display: inline-block; height: 30px; width: 40px; background: url(../../images/pokemon-sprite-sheet.png) no-repeat; vertical-align: top;}

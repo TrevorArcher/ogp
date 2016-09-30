@@ -1,305 +1,305 @@
 {"pokemon": [
 
-{"id":1,"name":"bulbasaur","maxCP":1071,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+{"id":1,"name":"bulbasaur","maxCP":1071,"candies":25,"weakness":["fire", "flying","ice","psychic"],"superWeakness":"N/A","strength":["electric","fairy","fighting","water"],"superStrength":["grass"],"types":["grass","poison"]},
 
-{"id":2,"name":"ivysaur","maxCP":1632,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+{"id":2,"name":"ivysaur","maxCP":1632,"candies":100,"weakness":["fire","flying","ice","psychic"],"superWeakness":"N/A","strength":["electric","fairy","fighting","water"],"superStrength":["grass"],"types":["grass","poison"]},
 
-{"id":3,"name":"venusaur","maxCP":2580,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+{"id":3,"name":"venusaur","maxCP":2580,"candies":"N/A","weakness":["fire","flying","ice","psychic"],"superWeakness":"N/A","strength":["electric","fairy","fighting","water"],"superStrength":["grass"],"types":["grass","poison"]},
 
-{"id":4,"name":"charmander","maxCP":955,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+{"id":4,"name":"charmander","maxCP":955,"candies":25,"weakness":["ground","rock","water"],"superWeakness":"N/A","strength":["bug","fairy","fire","grass","ice","steel"],"superStrength":"N/A","types":["fire"]},
 
-{"id":5,"name":"charmeleon","maxCP":1577,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+{"id":5,"name":"charmeleon","maxCP":1577,"candies":100,"weakness":["ground","rock","water"],"superWeakness":"N/A","strength":["bug","fairy","fire","grass","ice","steel"],"superStrength":"N/A","types":["fire"]},
 
-{"id":6,"name":"charizard","maxCP":2602,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire","flying"]},
+{"id":6,"name":"charizard","maxCP":2602,"candies":"N/A","weakness":["ground","rock","water"],"superWeakness":["rock"],"strength":["fairy","fighting","fire","ground","steel"],"superStrength":["bug","grass"],"types":["fire"]},
 
-{"id":7,"name":"squirtle","maxCP":1008,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":7,"name":"squirtle","maxCP":1008,"candies":25,"weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":8,"name":"wartortle","maxCP":1582,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":8,"name":"wartortle","maxCP":1582,"candies":100,"weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":9,"name":"blastoise","maxCP":2542,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":9,"name":"blastoise","maxCP":2542,"candies":"N/A","weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":10,"name":"caterpie","maxCP":443,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug"]},
+{"id":10,"name":"caterpie","maxCP":443,"candies":12,"weakness":["fire","flying","rock"],"superWeakness":"N/A","strength":["fighting","grass","ground"],"superStrength":"N/A","types":["bug"]},
 
-{"id":11,"name":"metapod","maxCP":477,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug"]},
+{"id":11,"name":"metapod","maxCP":477,"candies":50,"weakness":["fire","flying","rock"],"superWeakness":"N/A","strength":["fighting","grass","ground"],"superStrength":"N/A","types":["bug"]},
 
-{"id":12,"name":"butterfree","maxCP":1454,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","flying"]},
+{"id":12,"name":"butterfree","maxCP":1454,"candies":"N/A","weakness":["electric","fire","flying","ice"],"superWeakness":["rock"],"strength":["bug","ground"],"superStrength":["fighting","grass"],"types":["bug","flying"]},
 
-{"id":13,"name":"weedle","maxCP":449,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","poison"]},
+{"id":13,"name":"weedle","maxCP":449,"candies":12,"weakness":["fire","flying","psychic","rock"],"superWeakness":"N/A","strength":["bug","fairy","poison"],"superStrength":["fighting","grass"],"types":["bug","poison"]},
 
-{"id":14,"name":"kakuna","maxCP":485,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","poison"]},
+{"id":14,"name":"kakuna","maxCP":485,"candies":50,"weakness":["fire","flying","psychic","rock"],"superWeakness":"N/A","strength":["bug","fairy","poison"],"superStrength":["fighting","grass"],"types":["bug","poison"]},
 
-{"id":15,"name":"beedrill","maxCP":1439,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","poison"]},
+{"id":15,"name":"beedrill","maxCP":1439,"candies":"N/A","weakness":["fire","flying","psychic","rock"],"superWeakness":"N/A","strength":["bug","fairy","poison"],"superStrength":["fighting","grass"],"types":["bug","poison"]},
 
-{"id":16,"name":"pidgey","maxCP":679,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+{"id":16,"name":"pidgey","maxCP":679,"candies":12,"weakness":["electric","ice","rock"],"superWeakness":"","strength":["bug","ghost","grass","ground"],"superStrength":"N/A","types":["normal","flying"]},
 
-{"id":17,"name":"pidgeotto","maxCP":1223,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+{"id":17,"name":"pidgeotto","maxCP":1223,"candies":50,"weakness":["electric","ice","rock"],"superWeakness":"","strength":["bug","ghost","grass","ground"],"superStrength":"N/A","types":["normal","flying"]},
 
-{"id":18,"name":"pidgeot","maxCP":2091,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+{"id":18,"name":"pidgeot","maxCP":2091,"candies":"N/A","weakness":["electric","ice","rock"],"superWeakness":"","strength":["bug","ghost","grass","ground"],"superStrength":"N/A","types":["normal","flying"]},
 
-{"id":19,"name":"rattata","maxCP":581,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+{"id":19,"name":"rattata","maxCP":581,"candies":25,"weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"superStrength":"N/A","types":["normal"]},
 
-{"id":20,"name":"raticate","maxCP":1444,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+{"id":20,"name":"raticate","maxCP":1444,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"superStrength":"N/A","types":["normal"]},
 
-{"id":21,"name":"spearow","maxCP":686,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+{"id":21,"name":"spearow","maxCP":686,"candies":50,"weakness":["electric","ice","rock"],"superWeakness":"","strength":["bug","ghost","grass","ground"],"superStrength":"N/A","types":["normal","flying"]},
 
-{"id":22,"name":"fearow","maxCP":1746,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+{"id":22,"name":"fearow","maxCP":1746,"candies":"N/A","weakness":["electric","ice","rock"],"superWeakness":"","strength":["bug","ghost","grass","ground"],"superStrength":"N/A","types":["normal","flying"]},
 
-{"id":23,"name":"ekans","maxCP":824,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+{"id":23,"name":"ekans","maxCP":824,"candies":50,"weakness":["ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","poison"],"superStrength":"N/A","types":["poison"]},
 
-{"id":24,"name":"arbok","maxCP":1767,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+{"id":24,"name":"arbok","maxCP":1767,"candies":"N/A","weakness":["ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","poison"],"superStrength":"N/A","types":["poison"]},
 
-{"id":25,"name":"pikachu","maxCP":887,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric"]},
+{"id":25,"name":"pikachu","maxCP":887,"candies":50,"weakness":["ground"],"superWeakness":"N/A","strength":["electric","flying","steel"],"superStrength":"N/A","types":["electric"]},
 
-{"id":26,"name":"raichu","maxCP":2028,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric"]},
+{"id":26,"name":"raichu","maxCP":2028,"candies":"N/A","weakness":["ground"],"superWeakness":"N/A","strength":["electric","flying","steel"],"superStrength":"N/A","types":["electric"]},
 
-{"id":27,"name":"sandshrew","maxCP":798,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground"]},
+{"id":27,"name":"sandshrew","maxCP":798,"candies":50,"weakness":["grass","ice","water"],"superWeakness":"N/A","strength":["electric","poison","rock"],"superStrength":"N/A","types":["ground"]},
 
-{"id":28,"name":"sandslash","maxCP":1810,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground"]},
+{"id":28,"name":"sandslash","maxCP":1810,"candies":"N/A","weakness":["grass","ice","water"],"superWeakness":"N/A","strength":["electric","poison","rock"],"superStrength":"N/A","types":["ground"]},
 
-{"id":29,"name":"nidoran-f","maxCP":876,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+{"id":29,"name":"nidoran-f","maxCP":876,"candies":25,"weakness":["ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","poison"],"superStrength":"N/A","types":["poison"]},
 
-{"id":30,"name":"nidorina","maxCP":1404,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+{"id":30,"name":"nidorina","maxCP":1404,"candies":100,"weakness":["ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","poison"],"superStrength":"N/A","types":["poison"]},
 
-{"id":31,"name":"nidoqueen","maxCP":2485,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison","ground"]},
+{"id":31,"name":"nidoqueen","maxCP":2485,"candies":"N/A","weakness":["ground","ice","psychic","water"],"superWeakness":"N/A","strength":["bug","electric","fairy","fighting","rock"],"superStrength":["poison"],"types":["poison","ground"]},
 
-{"id":32,"name":"nidoran-m","maxCP":843,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+{"id":32,"name":"nidoran-m","maxCP":843,"candies":25,"weakness":["ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","poison"],"superStrength":"N/A","types":["poison"]},
 
-{"id":33,"name":"nidorino","maxCP":1372,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+{"id":33,"name":"nidorino","maxCP":1372,"candies":100,"weakness":["ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","poison"],"superStrength":"N/A","types":["poison"]},
 
-{"id":34,"name":"nidoking","maxCP":2475,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison","ground"]},
+{"id":34,"name":"nidoking","maxCP":2475,"candies":"N/A","weakness":["ground","ice","psychic","water"],"superWeakness":"N/A","strength":["bug","electric","fairy","fighting","rock"],"superStrength":["poison"],"types":["poison","ground"]},
 
-{"id":35,"name":"clefairy","maxCP":1200,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fairy"]},
+{"id":35,"name":"clefairy","maxCP":1200,"candies":50,"weakness":["poison","steel"],"superWeakness":"N/A","strength":["bug","dark","dragon","fighting"],"superStrength":"N/A","types":["fairy"]},
 
-{"id":36,"name":"clefable","maxCP":2397,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fairy"]},
+{"id":36,"name":"clefable","maxCP":2397,"candies":"N/A","weakness":["poison","steel"],"superWeakness":"N/A","strength":["bug","dark","dragon","fighting"],"superStrength":"N/A","types":["fairy"]},
 
-{"id":37,"name":"vulpix","maxCP":831,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+{"id":37,"name":"vulpix","maxCP":831,"candies":50,"weakness":["ground","rock","water"],"superWeakness":"N/A","strength":["bug","fairy","fire","grass","ice","steel"],"superStrength":"N/A","types":["fire"]},
 
-{"id":38,"name":"ninetales","maxCP":2188,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+{"id":38,"name":"ninetales","maxCP":2188,"candies":"N/A","weakness":["ground","rock","water"],"superWeakness":"N/A","strength":["bug","fairy","fire","grass","ice","steel"],"superStrength":"N/A","types":["fire"]},
 
-{"id":39,"name":"jigglypuff","maxCP":917,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","fairy"]},
+{"id":39,"name":"jigglypuff","maxCP":917,"candies":50,"weakness":["poison","steel"],"superWeakness":"N/A","strength":["bug","dark","dragon","ghost"],"superStrength":"N/A","types":["normal","fairy"]},
 
-{"id":40,"name":"wigglytuff","maxCP":2177,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","fairy"]},
+{"id":40,"name":"wigglytuff","maxCP":2177,"candies":"N/A","weakness":["poison","steel"],"superWeakness":"N/A","strength":["bug","dark","dragon","ghost"],"superStrength":"N/A","types":["normal","fairy"]},
 
-{"id":41,"name":"zubat","maxCP":642,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison","flying"]},
+{"id":41,"name":"zubat","maxCP":642,"candies":50,"weakness":["electric","ice","psychic","rock"],"superWeakness":"N/A","strength":["fairy","ground","poison"],"superStrength":["bug","fighting","grass"],"types":["poison","flying"]},
 
-{"id":42,"name":"golbat","maxCP":1921,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison","flying"]},
+{"id":42,"name":"golbat","maxCP":1921,"candies":"N/A","weakness":["electric","ice","psychic","rock"],"superWeakness":"N/A","strength":["fairy","ground","poison"],"superStrength":["bug","fighting","grass"],"types":["poison","flying"]},
 
-{"id":43,"name":"oddish","maxCP":1148,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+{"id":43,"name":"oddish","maxCP":1148,"candies":25,"weakness":["fire","flying","ice","psychic"],"superWeakness":"N/A","strength":["electric","fairy","fighting","water"],"superStrength":["grass"],"types":["grass","poison"]},
 
-{"id":44,"name":"gloom","maxCP":1689,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+{"id":44,"name":"gloom","maxCP":1689,"candies":100,"weakness":["fire","flying","ice","psychic"],"superWeakness":"N/A","strength":["electric","fairy","fighting","water"],"superStrength":["grass"],"types":["grass","poison"]},
 
-{"id":45,"name":"vileplume","maxCP":2492,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+{"id":45,"name":"vileplume","maxCP":2492,"candies":"N/A","weakness":["fire","flying","ice","psychic"],"superWeakness":"N/A","strength":["electric","fairy","fighting","water"],"superStrength":["grass"],"types":["grass","poison"]},
 
-{"id":46,"name":"paras","maxCP":916,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","grass"]},
+{"id":46,"name":"paras","maxCP":916,"candies":50,"weakness":["bug","ice","poison","rock"],"superWeakness":["fire","flying"],"strength":["electric","fighting","water"],"superStrength":["grass","ground"],"types":["bug","grass"]},
 
-{"id":47,"name":"parasect","maxCP":1747,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","grass"]},
+{"id":47,"name":"parasect","maxCP":1747,"candies":"N/A","weakness":["bug","ice","poison","rock"],"superWeakness":["fire","flying"],"strength":["electric","fighting","water"],"superStrength":["grass","ground"],"types":["bug","grass"]},
 
-{"id":48,"name":"venonat","maxCP":1029,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","poison"]},
+{"id":48,"name":"venonat","maxCP":1029,"candies":50,"weakness":["fire","flying","psychic","rock"],"superWeakness":"N/A","strength":["bug","fairy","poison"],"superStrength":["fighting","grass"],"types":["bug","poison"]},
 
-{"id":49,"name":"venomoth","maxCP":1890,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","poison"]},
+{"id":49,"name":"venomoth","maxCP":1890,"candies":"N/A","weakness":["fire","flying","psychic","rock"],"superWeakness":"N/A","strength":["bug","fairy","poison"],"superStrength":["fighting","grass"],"types":["bug","poison"]},
 
-{"id":50,"name":"diglett","maxCP":456,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground"]},
+{"id":50,"name":"diglett","maxCP":456,"candies":50,"weakness":["grass","ice","water"],"superWeakness":"N/A","strength":["electric","poison","rock"],"superStrength":"N/A","types":["ground"]},
 
-{"id":51,"name":"dugtrio","maxCP":1168,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground"]},
+{"id":51,"name":"dugtrio","maxCP":1168,"candies":"N/A","weakness":["grass","ice","water"],"superWeakness":"N/A","strength":["electric","poison","rock"],"superStrength":"N/A","types":["ground"]},
 
-{"id":52,"name":"meowth","maxCP":756,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+{"id":52,"name":"meowth","maxCP":756,"candies":50,"weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"superStrength":"N/A","types":["normal"]},
 
-{"id":53,"name":"persian","maxCP":1631,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+{"id":53,"name":"persian","maxCP":1631,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"superStrength":"N/A","types":["normal"]},
 
-{"id":54,"name":"psyduck","maxCP":1109,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":54,"name":"psyduck","maxCP":1109,"candies":50,"weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":55,"name":"golduck","maxCP":2386,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":55,"name":"golduck","maxCP":2386,"candies":"N/A","weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":56,"name":"mankey","maxCP":878,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+{"id":56,"name":"mankey","maxCP":878,"candies":50,"weakness":["fairy","flying","psychic"],"superWeakness":"N/A","strength":["bug","dark","rock"],"superStrength":"N/A","types":["fighting"]},
 
-{"id":57,"name":"primeape","maxCP":1864,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+{"id":57,"name":"primeape","maxCP":1864,"candies":"N/A","weakness":["fairy","flying","psychic"],"superWeakness":"N/A","strength":["bug","dark","rock"],"superStrength":"N/A","types":["fighting"]},
 
-{"id":58,"name":"growlithe","maxCP":1335,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+{"id":58,"name":"growlithe","maxCP":1335,"candies":50,"weakness":["ground","rock","water"],"superWeakness":"N/A","strength":["bug","fairy","fire","grass","ice","steel"],"superStrength":"N/A","types":["fire"]},
 
-{"id":59,"name":"arcanine","maxCP":2983,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+{"id":59,"name":"arcanine","maxCP":2983,"candies":"N/A","weakness":["ground","rock","water"],"superWeakness":"N/A","strength":["bug","fairy","fire","grass","ice","steel"],"superStrength":"N/A","types":["fire"]},
 
-{"id":60,"name":"poliwag","maxCP":795,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":60,"name":"poliwag","maxCP":795,"candies":25,"weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":61,"name":"poliwhirl","maxCP":1340,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":61,"name":"poliwhirl","maxCP":1340,"candies":100,"weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":62,"name":"poliwrath","maxCP":2505,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","fighting"]},
+{"id":62,"name":"poliwrath","maxCP":2505,"candies":"N/A","weakness":["electric","fairy","flying","grass","psychic"],"superWeakness":"N/A","strength":["bug","dark","fire","ice","rock","steel","water"],"superStrength":"N/A","types":["water","fighting"]},
 
-{"id":63,"name":"abra","maxCP":600,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]},
+{"id":63,"name":"abra","maxCP":600,"candies":25,"weakness":["bug","dark","ghost"],"superWeakness":"N/A","strength":["fighting","psychic"],"superStrength":"N/A","types":["psychic"]},
 
-{"id":64,"name":"kadabra","maxCP":1131,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]},
+{"id":64,"name":"kadabra","maxCP":1131,"candies":100,"weakness":["bug","dark","ghost"],"superWeakness":"N/A","strength":["fighting","psychic"],"superStrength":"N/A","types":["psychic"]},
 
-{"id":65,"name":"alakazam","maxCP":1813,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]},
+{"id":65,"name":"alakazam","maxCP":1813,"candies":"N/A","weakness":["bug","dark","ghost"],"superWeakness":"N/A","strength":["fighting","psychic"],"superStrength":"N/A","types":["psychic"]},
 
-{"id":66,"name":"machop","maxCP":1089,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+{"id":66,"name":"machop","maxCP":1089,"candies":25,"weakness":["fairy","flying","psychic"],"superWeakness":"N/A","strength":["bug","dark","rock"],"superStrength":"N/A","types":["fighting"]},
 
-{"id":67,"name":"machoke","maxCP":1760,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+{"id":67,"name":"machoke","maxCP":1760,"candies":100,"weakness":["fairy","flying","psychic"],"superWeakness":"N/A","strength":["bug","dark","rock"],"superStrength":"N/A","types":["fighting"]},
 
-{"id":68,"name":"machamp","maxCP":2594,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+{"id":68,"name":"machamp","maxCP":2594,"candies":"N/A","weakness":["fairy","flying","psychic"],"superWeakness":"N/A","strength":["bug","dark","rock"],"superStrength":"N/A","types":["fighting"]},
 
-{"id":69,"name":"bellsprout","maxCP":1117,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+{"id":69,"name":"bellsprout","maxCP":1117,"candies":25,"weakness":["fire","flying","ice","psychic"],"superWeakness":"N/A","strength":["electric","fairy","fighting","water"],"superStrength":["grass"],"types":["grass","poison"]},
 
-{"id":70,"name":"weepinbell","maxCP":1723,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+{"id":70,"name":"weepinbell","maxCP":1723,"candies":100,"weakness":["fire","flying","ice","psychic"],"superWeakness":"N/A","strength":["electric","fairy","fighting","water"],"superStrength":["grass"],"types":["grass","poison"]},
 
-{"id":71,"name":"victreebel","maxCP":2530,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","poison"]},
+{"id":71,"name":"victreebel","maxCP":2530,"candies":"N/A","weakness":["fire","flying","ice","psychic"],"superWeakness":"N/A","strength":["electric","fairy","fighting","water"],"superStrength":["grass"],"types":["grass","poison"]},
 
-{"id":72,"name":"tentacool","maxCP":905,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","poison"]},
+{"id":72,"name":"tentacool","maxCP":905,"candies":50,"weakness":["electric","ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","fire","ice","poison","steel","water"],"superStrength":"N/A","types":["water","poison"]},
 
-{"id":73,"name":"tentacruel","maxCP":2220,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","poison"]},
+{"id":73,"name":"tentacruel","maxCP":2220,"candies":"N/A","weakness":["electric","ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","fire","ice","poison","steel","water"],"superStrength":"N/A","types":["water","poison"]},
 
-{"id":74,"name":"geodude","maxCP":849,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","ground"]},
+{"id":74,"name":"geodude","maxCP":849,"candies":25,"weakness":["fighting","ground","ice","steel"],"superWeakness":["grass","water"],"strength":["fire","flying","normal","rock"],"superStrength":["poison"],"types":["rock","ground"]},
 
-{"id":75,"name":"graveler","maxCP":1433,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","ground"]},
+{"id":75,"name":"graveler","maxCP":1433,"candies":100,"weakness":["fighting","ground","ice","steel"],"superWeakness":["grass","water"],"strength":["fire","flying","normal","rock"],"superStrength":["poison"],"types":["rock","ground"]},
 
-{"id":76,"name":"golem","maxCP":2303,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","ground"]},
+{"id":76,"name":"golem","maxCP":2303,"candies":"N/A","weakness":["fighting","ground","ice","steel"],"superWeakness":["grass","water"],"strength":["fire","flying","normal","rock"],"superStrength":["poison"],"types":["rock","ground"]},
 
-{"id":77,"name":"ponyta","maxCP":1516,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+{"id":77,"name":"ponyta","maxCP":1516,"candies":50,"weakness":["ground","rock","water"],"superWeakness":"N/A","strength":["bug","fairy","fire","grass","ice","steel"],"superStrength":"N/A","types":["fire"]},
 
-{"id":78,"name":"rapidash","maxCP":2199,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+{"id":78,"name":"rapidash","maxCP":2199,"candies":"N/A","weakness":["ground","rock","water"],"superWeakness":"N/A","strength":["bug","fairy","fire","grass","ice","steel"],"superStrength":"N/A","types":["fire"]},
 
-{"id":79,"name":"slowpoke","maxCP":1218,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","psychic"]},
+{"id":79,"name":"slowpoke","maxCP":1218,"candies":50,"weakness":["bug","dark","electric","ghost","grass"],"superWeakness":"N/A","strength":["fighting","fire","ice","psychic","steel","water"],"superStrength":"N/A","types":["water","psychic"]},
 
-{"id":80,"name":"slowbro","maxCP":2597,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","psychic"]},
+{"id":80,"name":"slowbro","maxCP":2597,"candies":"N/A","weakness":["bug","dark","electric","ghost","grass"],"superWeakness":"N/A","strength":["fighting","fire","ice","psychic","steel","water"],"superStrength":"N/A","types":["water","psychic"]},
 
-{"id":81,"name":"magnemite","maxCP":890,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric","steel"]},
+{"id":81,"name":"magnemite","maxCP":890,"candies":50,"weakness":["fighting","fire"],"superWeakness":["ground"],"strength":["bug","dragon","electric","fairy","grass","ice","normal","psychic","rock"],"superStrength":["flying","steel"],"types":["electric","steel"]},
 
-{"id":82,"name":"magneton","maxCP":1879,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric","steel"]},
+{"id":82,"name":"magneton","maxCP":1879,"candies":"N/A","weakness":["fighting","fire"],"superWeakness":["ground"],"strength":["bug","dragon","electric","fairy","grass","ice","normal","psychic","rock"],"superStrength":["flying","steel"],"types":["electric","steel"]},
 
-{"id":83,"name":"farfetchd","maxCP":1263,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+{"id":83,"name":"farfetchd","maxCP":1263,"candies":"N/A","weakness":["electric","ice","rock"],"superWeakness":"","strength":["bug","ghost","grass","ground"],"superStrength":"N/A","types":["normal","flying"]},
 
-{"id":84,"name":"doduo","maxCP":855,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+{"id":84,"name":"doduo","maxCP":855,"candies":50,"weakness":["electric","ice","rock"],"superWeakness":"","strength":["bug","ghost","grass","ground"],"superStrength":"N/A","types":["normal","flying"]},
 
-{"id":85,"name":"dodrio","maxCP":1836,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal","flying"]},
+{"id":85,"name":"dodrio","maxCP":1836,"candies":"N/A","weakness":["electric","ice","rock"],"superWeakness":"","strength":["bug","ghost","grass","ground"],"superStrength":"N/A","types":["normal","flying"]},
 
-{"id":86,"name":"seel","maxCP":1107,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":86,"name":"seel","maxCP":1107,"candies":50,"weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":87,"name":"dewgong","maxCP":2145,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","ice"]},
+{"id":87,"name":"dewgong","maxCP":2145,"candies":"N/A","weakness":["electric","fighting","grass","rock"],"superWeakness":"N/A","strength":["water"],"superStrength":["ice"],"types":["water","ice"]},
 
-{"id":88,"name":"grimer","maxCP":1284,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+{"id":88,"name":"grimer","maxCP":1284,"candies":50,"weakness":["ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","poison"],"superStrength":"N/A","types":["poison"]},
 
-{"id":89,"name":"muk","maxCP":2602,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+{"id":89,"name":"muk","maxCP":2602,"candies":"N/A","weakness":["ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","poison"],"superStrength":"N/A","types":["poison"]},
 
-{"id":90,"name":"shellder","maxCP":822,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":90,"name":"shellder","maxCP":822,"candies":50,"weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":91,"name":"cloyster","maxCP":2052,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","ice"]},
+{"id":91,"name":"cloyster","maxCP":2052,"candies":"N/A","weakness":["electric","fighting","grass","rock"],"superWeakness":"N/A","strength":["water"],"superStrength":["ice"],"types":["water","ice"]},
 
-{"id":92,"name":"gastly","maxCP":804,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ghost","poison"]},
+{"id":92,"name":"gastly","maxCP":804,"candies":25,"weakness":["dark","ghost","ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","normal"],"superStrength":["poison"],"types":["ghost","poison"]},
 
-{"id":93,"name":"haunter","maxCP":1380,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ghost","poison"]},
+{"id":93,"name":"haunter","maxCP":1380,"candies":100,"weakness":["dark","ghost","ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","normal"],"superStrength":["poison"],"types":["ghost","poison"]},
 
-{"id":94,"name":"gengar","maxCP":2078,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ghost","poison"]},
+{"id":94,"name":"gengar","maxCP":2078,"candies":0,"weakness":["dark","ghost","ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","normal"],"superStrength":["poison"],"types":["ghost","poison"]},
 
-{"id":95,"name":"onix","maxCP":857,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","ground"]},
+{"id":95,"name":"onix","maxCP":857,"candies":"N/A","weakness":["fighting","ground","ice","steel"],"superWeakness":["grass","water"],"strength":["fire","flying","normal","rock"],"superStrength":["poison"],"types":["rock","ground"]},
 
-{"id":96,"name":"drowzee","maxCP":1075,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]},
+{"id":96,"name":"drowzee","maxCP":1075,"candies":50,"weakness":["bug","dark","ghost"],"superWeakness":"N/A","strength":["fighting","psychic"],"superStrength":"N/A","types":["psychic"]},
 
-{"id":97,"name":"hypno","maxCP":2184,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]},
+{"id":97,"name":"hypno","maxCP":2184,"candies":"N/A","weakness":["bug","dark","ghost"],"superWeakness":"N/A","strength":["fighting","psychic"],"superStrength":"N/A","types":["psychic"]},
 
-{"id":98,"name":"krabby","maxCP":792,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":98,"name":"krabby","maxCP":792,"candies":50,"weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":99,"name":"kingler","maxCP":1823,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":99,"name":"kingler","maxCP":1823,"candies":"N/A","weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":100,"name":"voltorb","maxCP":839,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric"]},
+{"id":100,"name":"voltorb","maxCP":839,"candies":50,"weakness":["ground"],"superWeakness":"N/A","strength":["electric","flying","steel"],"superStrength":"N/A","types":["electric"]},
 
-{"id":101,"name":"electrode","maxCP":1646,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric"]},
+{"id":101,"name":"electrode","maxCP":1646,"candies":"N/A","weakness":["ground"],"superWeakness":"N/A","strength":["electric","flying","steel"],"superStrength":"N/A","types":["electric"]},
 
-{"id":102,"name":"exeggcute","maxCP":1099,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","psychic"]},
+{"id":102,"name":"exeggcute","maxCP":1099,"candies":50,"weakness":["dark","fire","flying","ghost","ice","poison"],"superWeakness":["bug"],"strength":["electric","fighting","grass","ground","psychic","water"],"superStrength":"N/A","types":["grass","psychic"]},
 
-{"id":103,"name":"exeggutor","maxCP":2955,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass","psychic"]},
+{"id":103,"name":"exeggutor","maxCP":2955,"candies":"N/A","weakness":["dark","fire","flying","ghost","ice","poison"],"superWeakness":["bug"],"strength":["electric","fighting","grass","ground","psychic","water"],"superStrength":"N/A","types":["grass","psychic"]},
 
-{"id":104,"name":"cubone","maxCP":1006,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground"]},
+{"id":104,"name":"cubone","maxCP":1006,"candies":50,"weakness":["grass","ice","water"],"superWeakness":"N/A","strength":["electric","poison","rock"],"superStrength":"N/A","types":["ground"]},
 
-{"id":105,"name":"marowak","maxCP":1656,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground"]},
+{"id":105,"name":"marowak","maxCP":1656,"candies":"N/A","weakness":["grass","ice","water"],"superWeakness":"N/A","strength":["electric","poison","rock"],"superStrength":"N/A","types":["ground"]},
 
-{"id":106,"name":"hitmonlee","maxCP":1492,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+{"id":106,"name":"hitmonlee","maxCP":1492,"candies":"N/A","weakness":["fairy","flying","psychic"],"superWeakness":"N/A","strength":["bug","dark","rock"],"superStrength":"N/A","types":["fighting"]},
 
-{"id":107,"name":"hitmonchan","maxCP":1516,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fighting"]},
+{"id":107,"name":"hitmonchan","maxCP":1516,"candies":"N/A","weakness":["fairy","flying","psychic"],"superWeakness":"N/A","strength":["bug","dark","rock"],"superStrength":"N/A","types":["fighting"]},
 
-{"id":108,"name":"lickitung","maxCP":1626,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+{"id":108,"name":"lickitung","maxCP":1626,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"types":["normal"]},
 
-{"id":109,"name":"koffing","maxCP":1151,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+{"id":109,"name":"koffing","maxCP":1151,"candies":50,"weakness":["ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","poison"],"superStrength":"N/A","types":["poison"]},
 
-{"id":110,"name":"weezing","maxCP":2250,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["poison"]},
+{"id":110,"name":"weezing","maxCP":2250,"candies":"N/A","weakness":["ground","psychic"],"superWeakness":"N/A","strength":["bug","fairy","fighting","grass","poison"],"superStrength":"N/A","types":["poison"]},
 
-{"id":111,"name":"rhyhorn","maxCP":1182,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground","rock"]},
+{"id":111,"name":"rhyhorn","maxCP":1182,"candies":50,"weakness":["fighting","ground","ice","steel"],"superWeakness":["grass","water"],"strength":["fire","flying","normal","rock"],"superStrength":["poison"],"types":["ground","rock"]},
 
-{"id":112,"name":"rhydon","maxCP":2243,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ground","rock"]},
+{"id":112,"name":"rhydon","maxCP":2243,"candies":"N/A","weakness":["fighting","ground","ice","steel"],"superWeakness":["grass","water"],"strength":["fire","flying","normal","rock"],"superStrength":["poison"],"types":["ground","rock"]},
 
-{"id":113,"name":"chansey","maxCP":675,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+{"id":113,"name":"chansey","maxCP":675,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"types":["normal"]},
 
-{"id":114,"name":"tangela","maxCP":1739,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["grass"]},
+{"id":114,"name":"tangela","maxCP":1739,"candies":"N/A","weakness":["bug","fire","flying","ice","poison"],"superWeakness":"N/A","strength":["electric","grass","ground","water"],"superStrength":"N/A","types":["grass"]},
 
-{"id":115,"name":"kangaskhan","maxCP":2043,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+{"id":115,"name":"kangaskhan","maxCP":2043,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"types":["normal"]},
 
-{"id":116,"name":"horsea","maxCP":794,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":116,"name":"horsea","maxCP":794,"candies":50,"weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":117,"name":"seadra","maxCP":1713,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":117,"name":"seadra","maxCP":1713,"candies":"N/A","weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":118,"name":"goldeen","maxCP":965,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":118,"name":"goldeen","maxCP":965,"candies":50,"weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":119,"name":"seaking","maxCP":2035,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":119,"name":"seaking","maxCP":2035,"candies":"N/A","weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":120,"name":"staryu","maxCP":937,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":120,"name":"staryu","maxCP":937,"candies":50,"weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":121,"name":"starmie","maxCP":2182,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","psychic"]},
+{"id":121,"name":"starmie","maxCP":2182,"candies":"N/A","weakness":["bug","dark","electric","ghost","grass"],"superWeakness":"N/A","strength":["fighting","fire","ice","psychic","steel","water"],"superStrength":"N/A","types":["water","psychic"]},
 
-{"id":122,"name":"mr-mime","maxCP":1494,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic","fairy"]},
+{"id":122,"name":"mr-mime","maxCP":1494,"candies":"N/A","weakness":["ghost","poison","steel"],"superWeakness":"N/A","strength":["dragon","psychic"],"superStrength":["fighting"],"types":["psychic","fairy"]},
 
-{"id":123,"name":"scyther","maxCP":2073,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug","flying"]},
+{"id":123,"name":"scyther","maxCP":2073,"candies":"N/A","weakness":["electric","fire","flying","ice"],"superWeakness":["rock"],"strength":["bug","ground"],"superStrength":["fighting","grass"],"types":["bug","flying"]},
 
-{"id":124,"name":"jynx","maxCP":1716,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ice","psychic"]},
+{"id":124,"name":"jynx","maxCP":1716,"candies":"N/A","weakness":["bug","dark","fire","ghost","rock","steel"],"superWeakness":"N/A","strength":["ice","psychic"],"superStrength":"N/A","types":["ice","psychic"]},
 
-{"id":125,"name":"electabuzz","maxCP":2119,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric"]},
+{"id":125,"name":"electabuzz","maxCP":2119,"candies":"N/A","weakness":["ground"],"superWeakness":"N/A","strength":["electric","flying","steel"],"superStrength":"N/A","types":["electric"]},
 
-{"id":126,"name":"magmar","maxCP":2265,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+{"id":126,"name":"magmar","maxCP":2265,"candies":"N/A","weakness":["ground","rock","water"],"superWeakness":"N/A","strength":["bug","fairy","fire","grass","ice","steel"],"superStrength":"N/A","types":["fire"]},
 
-{"id":127,"name":"pinsir","maxCP":2121,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["bug"]},
+{"id":127,"name":"pinsir","maxCP":2121,"candies":"N/A","weakness":["fire","flying","rock"],"superWeakness":"N/A","strength":["fighting","grass","ground"],"superStrength":"N/A","types":["bug"]},
 
-{"id":128,"name":"tauros","maxCP":1844,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+{"id":128,"name":"tauros","maxCP":1844,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"superStrength":"N/A","types":["normal"]},
 
-{"id":129,"name":"magikarp","maxCP":262,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":129,"name":"magikarp","maxCP":262,"candies":400,"weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":130,"name":"gyarados","maxCP":2688,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","flying"]},
+{"id":130,"name":"gyarados","maxCP":2688,"candies":"N/A","weakness":["rock"],"superWeakness":["electric"],"strength":["bug","fighting","fire","ground","steel","water"],"superStrength":"N/A","types":["water","flying"]},
 
-{"id":131,"name":"lapras","maxCP":2980,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water","ice"]},
+{"id":131,"name":"lapras","maxCP":2980,"candies":"N/A","weakness":["electric","fighting","grass","rock"],"superWeakness":"N/A","strength":["water"],"superStrength":["ice"],"types":["water","ice"]},
 
-{"id":132,"name":"ditto","maxCP":919,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+{"id":132,"name":"ditto","maxCP":919,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"superStrength":"N/A","types":["normal"]},
 
-{"id":133,"name":"eevee","maxCP":1077,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+{"id":133,"name":"eevee","maxCP":1077,"candies":25,"weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"superStrength":"N/A","types":["normal"]},
 
-{"id":134,"name":"vaporeon","maxCP":2816,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["water"]},
+{"id":134,"name":"vaporeon","maxCP":2816,"candies":"N/A","weakness":["electric","grass"],"superWeakness":"N/A","strength":["fire","ice","steel","water"],"superStrength":"N/A","types":["water"]},
 
-{"id":135,"name":"jolteon","maxCP":2140,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric"]},
+{"id":135,"name":"jolteon","maxCP":2140,"candies":"N/A","weakness":["ground"],"superWeakness":"N/A","strength":["electric","flying","steel"],"superStrength":"N/A","types":["electric"]},
 
-{"id":136,"name":"flareon","maxCP":2643,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire"]},
+{"id":136,"name":"flareon","maxCP":2643,"candies":"N/A","weakness":["ground","rock","water"],"superWeakness":"N/A","strength":["bug","fairy","fire","grass","ice","steel"],"superStrength":"N/A","types":["fire"]},
 
-{"id":137,"name":"porygon","maxCP":1691,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+{"id":137,"name":"porygon","maxCP":1691,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"superStrength":"N/A","types":["normal"]},
 
-{"id":138,"name":"omanyte","maxCP":1119,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","water"]},
+{"id":138,"name":"omanyte","maxCP":1119,"candies":50,"weakness":["electric","fighting","ground"],"superWeakness":["grass"],"strength":["flying","ice","normal","poison"],"superStrength":["fire"],"types":["rock","water"]},
 
-{"id":139,"name":"omastar","maxCP":2233,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","water"]},
+{"id":139,"name":"omastar","maxCP":2233,"candies":"N/A","weakness":["electric","fighting","ground"],"superWeakness":["grass"],"strength":["flying","ice","normal","poison"],"superStrength":["fire"],"types":["rock","water"]},
 
-{"id":140,"name":"kabuto","maxCP":1104,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","water"]},
+{"id":140,"name":"kabuto","maxCP":1104,"candies":50,"weakness":["electric","fighting","ground"],"superWeakness":["grass"],"strength":["flying","ice","normal","poison"],"superStrength":["fire"],"types":["rock","water"]},
 
-{"id":141,"name":"kabutops","maxCP":2130,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","water"]},
+{"id":141,"name":"kabutops","maxCP":2130,"candies":"N/A","weakness":["electric","fighting","ground"],"superWeakness":["grass"],"strength":["flying","ice","normal","poison"],"superStrength":["fire"],"types":["rock","water"]},
 
-{"id":142,"name":"aerodactyl","maxCP":2165,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["rock","flying"]},
+{"id":142,"name":"aerodactyl","maxCP":2165,"candies":"N/A","weakness":["electric","ice","rock","steel","water"],"superWeakness":"","strength":"","superStrength":"","types":["rock","flying"]},
 
-{"id":143,"name":"snorlax","maxCP":3112,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["normal"]},
+{"id":143,"name":"snorlax","maxCP":3112,"candies":"N/A","weakness":["fighting"],"superWeakness":"N/A","strength":["ghost"],"superStrength":"N/A","types":["normal"]},
 
-{"id":144,"name":"articuno","maxCP":2978,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["ice","flying"]},
+{"id":144,"name":"articuno","maxCP":2978,"candies":"N/A","weakness":["electric","fire","steel"],"superWeakness":["rock"],"strength":["bug","grass","ground"],"superStrength":"N/A","types":["ice","flying"]},
 
-{"id":145,"name":"zapdos","maxCP":3114,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["electric","flying"]},
+{"id":145,"name":"zapdos","maxCP":3114,"candies":"N/A","weakness":["ice","rock"],"superWeakness":"N/A","strength":["bug","fighting","flying","grass","ground","steel"],"superStrength":"N/A","types":["electric","flying"]},
 
-{"id":146,"name":"moltres","maxCP":3240,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["fire","flying"]},
+{"id":146,"name":"moltres","maxCP":3240,"candies":"N/A","weakness":["electric","water"],"superWeakness":["rock"],"strength":["fairy","fighting","fire","ground","steel"],"superStrength":["bug","grass"],"types":["fire","flying"]},
 
-{"id":147,"name":"dratini","maxCP":983,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["dragon"]},
+{"id":147,"name":"dratini","maxCP":983,"candies":25,"weakness":["dragon","fairy","ice"],"superWeakness":"N/A","strength":["electric","fire","grass","water"],"superStrength":"N/A","types":["dragon"]},
 
-{"id":148,"name":"dragonair","maxCP":1747,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["dragon"]},
+{"id":148,"name":"dragonair","maxCP":1747,"candies":100,"weakness":["dragon","fairy","ice"],"superWeakness":"N/A","strength":["electric","fire","grass","water"],"superStrength":"N/A","types":["dragon"]},
 
-{"id":149,"name":"dragonite","maxCP":3500,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["dragon","flying"]},
+{"id":149,"name":"dragonite","maxCP":3500,"candies":"N/A","weakness":["dragon","fairy"],"superWeakness":["ice"],"strength":["electric","fire","water"],"superStrength":["grass"],"types":["dragon","flying"]},
 
-{"id":150,"name":"mewtwo","maxCP":4144,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]},
+{"id":150,"name":"mewtwo","maxCP":4144,"candies":"N/A","weakness":["bug","dark","ghost"],"superWeakness":"N/A","strength":["fighting","psychic"],"superStrength":"N/A","types":["psychic"]},
 
-{"id":151,"name":"mew","maxCP":3299,"candies":0,"weakness":"","superWeakness":"","strength":"","superStrength":"","types":["psychic"]}
+{"id":151,"name":"mew","maxCP":3299,"candies":"N/A","weakness":["bug","dark","ghost"],"superWeakness":"N/A","strength":["fighting","psychic"],"superStrength":"N/A","types":["psychic"]}
 
 ]}
