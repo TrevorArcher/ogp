@@ -148,7 +148,42 @@ var moreDiv = function() {
             pokeStr += ('<span class="' + pArrResult.types[0] + '-select info-type"><p>' + pArrResult.types[0] + '</p></span></span></div>');
           }
           pokeStr += ('<div class="go-info"><span class="max-cp"><p>Max CP: '+ pArrResult.maxCP +'</p></span><span class="candies"><p>Candies to evolve: ' + pArrResult.candies +'</p></span></div>');
-          pokeStr += ('<div class="defense-info"><h3>Defenses</h3><hr>');
+          pokeStr += ('<div class="defense-info"><h3>Defenses</h3><hr><span class="very-strong"><p>Very Strong (0.64x modifier)</p>');
+          if (pArrResult.superStrength == "N/A") {
+            pokeStr += ('<p>N/A</p>');
+          } else {
+              for (var j = 0 ; j < pArrResult.superStrength.length ; j++) {
+                pokeStr += ('<span class="' + pArrResult.superStrength[j] + '-select info-type"><p>' + pArrResult.superStrength[j] + '</p></span>');
+              }
+          }
+
+          pokeStr += ('</span><span class="strong"><p>Strong (0.8x modifier)</p>');
+          if (pArrResult.strength == "N/A") {
+            pokeStr += ('<p>N/A</p>');
+          } else {
+              for (var k = 0 ; k < pArrResult.strength.length ; k++) {
+                pokeStr += ('<span class="' + pArrResult.strength[k] + '-select info-type"><p>' + pArrResult.strength[k] + '</p></span>');
+              }
+          }
+
+          pokeStr += ('</span><span class="weak"><p>Weak (1.25x modifier)</p>');
+          if (pArrResult.weakness == "N/A") {
+            pokeStr += ('<p>N/A</p>');
+          } else {
+              for (var l = 0 ; l < pArrResult.weakness.length ; l++) {
+                pokeStr += ('<span class="' + pArrResult.weakness[l] + '-select info-type"><p>' + pArrResult.weakness[l] + '</p></span>');
+              }
+          }
+
+          pokeStr += ('</span><span class="very-weak"><p>Very Weak (1.56x modifier)</p>');
+          if (pArrResult.superWeakness == "N/A") {
+            pokeStr += ('<p>N/A</p>');
+          } else {
+              for (var m = 0 ; m < pArrResult.superWeakness.length ; m++) {
+                pokeStr += ('<span class="' + pArrResult.superWeakness[m] + '-select info-type"><p>' + pArrResult.superWeakness[m] + '</p></span>');
+              }
+          }
+          console.log(pokeStr);
         }
     }
   });
