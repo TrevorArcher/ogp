@@ -1,3 +1,5 @@
+if (document.body.classList) {
+
 var mainContent = document.getElementsByTagName('main')[0],
     $results = document.getElementsByClassName('search-results')[0],
     $infoOver = document.getElementById('info-overlay'),
@@ -131,3 +133,4 @@ document.getElementsByClassName('search-submit')[0].onclick = function(){
   $results.innerHTML = '';
   requestFun();
 };
+}
