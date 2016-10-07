@@ -4,18 +4,14 @@ var mainContent = document.getElementsByTagName('main')[0],
     $results = document.getElementsByClassName('search-results')[0],
     $infoOver = document.getElementById('info-overlay'),
     $buttons = document.getElementsByTagName('button'),
-    pNameArr = [],
     pTypeArr = [],
     pObj;
-
 var typeSearchArr = ['Normal','Fire','Water','Grass','Electric','Ice','Fighting','Poison','Ground','Rock','Flying','Bug','Psychic','Ghost','Dragon','Dark','Steel','Fairy'];
-
 var buttonBuild = function(){
   var typeForm = document.createElement('form'),
       typeField = document.createElement('fieldset'),
       typeDiv = document.createElement('div'),
       searchDiv = document.createElement('div');
-
   typeDiv.setAttribute('id', 'type-menu');
   searchDiv.setAttribute('id', 'form-btns');
   typeForm.setAttribute('method', 'get');
@@ -40,15 +36,11 @@ var buttonBuild = function(){
   resetButton.setAttribute('class', 'search-reset');
   resetButton.textContent = 'Reset';
   searchDiv.appendChild(resetButton);
-
   typeField.appendChild(typeDiv);
   typeField.appendChild(searchDiv);
   typeForm.appendChild(typeField);
   mainContent.insertBefore(typeForm, mainContent.childNodes[0]);
 }();
-
-
-
 var typeSelect = document.getElementsByClassName('type');
 for (var i = 0 ; i < typeSelect.length ; i++) {
   typeSelect[i].onclick = function(){
@@ -63,8 +55,6 @@ for (var i = 0 ; i < typeSelect.length ; i++) {
     this.classList.toggle('type-select');
   };
 }
-
-
 document.getElementsByClassName('search-reset')[0].onclick = function(){
   pTypeArr = [];
   $results.innerHTML = '';
@@ -76,7 +66,6 @@ document.getElementsByClassName('search-reset')[0].onclick = function(){
     }
   }
 };
-
 var requestFun = function() {
   var r = new XMLHttpRequest();
   r.onreadystatechange = function () {
@@ -86,49 +75,39 @@ var requestFun = function() {
   r.open("GET", "json/ogpokemon.json", true);
   r.send();
 };
-
 var buildResults = function(xml) {
   pObj = JSON.parse(xml.responseText);
-
   for(var i = 0 ; i < pObj.pokemon.length ; i++) {
     var nextP = pObj.pokemon[i],
     pName = nextP.name;
-
     var cardLink = document.createElement('a');
     cardLink.setAttribute('href', 'more.html#' + pName);
-
     var cardButton = document.createElement('button');
     cardButton.setAttribute('class', 'info-card');
     cardButton.setAttribute('value', nextP.id);
-
     var namePar = document.createElement('p');
     var nameParText = document.createTextNode(pName);
     namePar.setAttribute('class', 'info-name');
-
     var typeContain = document.createElement('span');
     typeContain.setAttribute('class', 'type-container');
-
     if ((pTypeArr.includes(nextP.types[0]) || pTypeArr.includes(nextP.types[1]))) {
       namePar.appendChild(nameParText);
       cardButton.appendChild(namePar);
       for (var j = 0 ; j < nextP.types.length ; j++) {
         var type = document.createElement('span');
         type.setAttribute('class', 'info-type ' + nextP.types[j] + '-select');
-
         var typePar = document.createElement('p');
         var typeParText = document.createTextNode(nextP.types[j]);
         typePar.appendChild(typeParText);
         type.appendChild(typePar);
         typeContain.appendChild(type);
       }
-
       cardButton.appendChild(typeContain);
       cardLink.appendChild(cardButton);
       $results.appendChild(cardLink);
     }
   }
 };
-
 document.getElementsByClassName('search-submit')[0].onclick = function(){
   $results.innerHTML = '';
   requestFun();

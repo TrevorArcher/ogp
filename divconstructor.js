@@ -126,8 +126,8 @@ var moreDiv = function() {
         for (var i = 0; i < 152 ; i++) {
           var pArrResult = result.pokemon[i];
           var pokeStr = '';
-          pokeStr += ('<a name="' + pArrResult.name + '" tabindex="0">');
-          pokeStr += ('<div class="info-card" value="' + pArrResult.id + '">');
+          // pokeStr += ('<a name="' + pArrResult.name + '" tabindex="0">');
+          pokeStr += ('<div class="info-card" value="' + pArrResult.id + '" id="' + pArrResult.name + '" tabindex="0">');
           pokeStr += ('<div class="info-contain">');
           pokeStr += ('<div class="basic-info">');
 
@@ -184,7 +184,7 @@ var moreDiv = function() {
                 pokeStr += ('<span class="' + pArrResult.superWeakness[m] + '-select info-type"><p>' + pArrResult.superWeakness[m] + '</p></span>');
               }
           }
-          pokeStr += ('</span></div></div></div></a>');
+          pokeStr += ('</span></div></div></div>');
           console.log(pokeStr);
         }
 

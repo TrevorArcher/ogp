@@ -112,7 +112,7 @@ h1{
   border-bottom: 1px solid #ccc;
 }
 
-a:nth-of-type(even) .info-card {
+.search-results .info-card:nth-of-type(even){
   background-color: #deeeef;
 }
 
