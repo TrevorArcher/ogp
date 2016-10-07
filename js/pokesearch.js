@@ -72,7 +72,7 @@ var requestFun = function() {
   	if (r.readyState != 4 || r.status != 200) return;
     buildResults(this);
   };
-  r.open("GET", "json/ogpokemon.json", true);
+  r.open("GET", "https://trevorarcher.github.io/ogp/json/ogpokemon.json", true);
   r.send();
 };
 var buildResults = function(xml) {
